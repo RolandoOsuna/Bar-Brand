@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "6ulanure9LYZYfOLPUS1opeX3pxHcC1nOESGKPp58C9v2lFxjpuHiqyWepO0oC4m18rR0omPrOcn4v3cKQ+W+A==",
+  "dgSpecHash": "F8Dbn7XA9/ea8UM2rTl6Lv3ZrgkkxkHi31Duh6/OzX1zqCwJwsAPpATDvxnj3pGH3rJws+27suLedPMRYrMsNg==",
   "success": true,
   "projectFilePath": "D:\\Proyectos\\WTFBarber-PuntodeVenta\\WTFBarber.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Personal\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\fontawesome.sharp\\6.1.1\\fontawesome.sharp.6.1.1.nupkg.sha512",
     "C:\\Users\\Personal\\.nuget\\packages\\google.protobuf\\3.14.0\\google.protobuf.3.14.0.nupkg.sha512",
     "C:\\Users\\Personal\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Personal\\.nuget\\packages\\k4os.compression.lz4\\1.2.6\\k4os.compression.lz4.1.2.6.nupkg.sha512",

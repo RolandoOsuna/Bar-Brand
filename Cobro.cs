@@ -103,31 +103,37 @@ namespace WTFBarber
                     Precio = 150;
                     break;
                 case 1:
-                    Precio = 170;
-                    break;
-                case 2:
                     Precio = 120;
                     break;
-                case 3:
+                case 2:
                     Precio = 160;
                     break;
-                case 4:
+                case 3:
                     Precio = 140;
                     break;
-                case 5:
+                case 4:
                     Precio = 150;
                     break;
-                case 6:
-                    Precio = 250;
-                    break;
-                case 7:
+                case 5:
                     Precio = 100;
                     break;
+                case 6:
+                    Precio = 50;
+                    break;
+                case 7:
+                    Precio = 50;
+                    break;
                 case 8:
-                    Precio = 150;
+                    Precio = 250;
                     break;
                 case 9:
-                    Precio = 50;
+                    Precio = 150;
+                    break;
+                case 10:
+                    Precio = 350;
+                    break;
+                case 11:
+                    Precio = 450;
                     break;
             }
             txt_Precio.Text = Precio.ToString();

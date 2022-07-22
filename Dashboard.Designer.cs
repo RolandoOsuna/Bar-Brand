@@ -36,12 +36,12 @@ namespace WTFBarber
             this.btn_Minimizar = new System.Windows.Forms.PictureBox();
             this.btn_Restaurar = new System.Windows.Forms.PictureBox();
             this.Barra_Lateral = new System.Windows.Forms.Panel();
+            this.btn_iconoReportes = new FontAwesome.Sharp.IconButton();
+            this.btn_iconoNomina = new FontAwesome.Sharp.IconButton();
+            this.btn_iconoCorteCaja = new FontAwesome.Sharp.IconButton();
+            this.btn_iconoCobro = new FontAwesome.Sharp.IconButton();
             this.lbl_CerrarSesion = new System.Windows.Forms.Label();
             this.btn_CerrarSesion = new System.Windows.Forms.PictureBox();
-            this.btn_Reportes = new System.Windows.Forms.Button();
-            this.btn_Nominas = new System.Windows.Forms.Button();
-            this.btn_CorteCaja = new System.Windows.Forms.Button();
-            this.btn_Cobro = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelformulario = new System.Windows.Forms.Panel();
@@ -125,13 +125,13 @@ namespace WTFBarber
             // 
             // Barra_Lateral
             // 
-            this.Barra_Lateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Barra_Lateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.Barra_Lateral.Controls.Add(this.btn_iconoReportes);
+            this.Barra_Lateral.Controls.Add(this.btn_iconoNomina);
+            this.Barra_Lateral.Controls.Add(this.btn_iconoCorteCaja);
+            this.Barra_Lateral.Controls.Add(this.btn_iconoCobro);
             this.Barra_Lateral.Controls.Add(this.lbl_CerrarSesion);
             this.Barra_Lateral.Controls.Add(this.btn_CerrarSesion);
-            this.Barra_Lateral.Controls.Add(this.btn_Reportes);
-            this.Barra_Lateral.Controls.Add(this.btn_Nominas);
-            this.Barra_Lateral.Controls.Add(this.btn_CorteCaja);
-            this.Barra_Lateral.Controls.Add(this.btn_Cobro);
             this.Barra_Lateral.Controls.Add(this.button1);
             this.Barra_Lateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.Barra_Lateral.Location = new System.Drawing.Point(0, 32);
@@ -139,8 +139,101 @@ namespace WTFBarber
             this.Barra_Lateral.Size = new System.Drawing.Size(228, 518);
             this.Barra_Lateral.TabIndex = 1;
             // 
+            // btn_iconoReportes
+            // 
+            this.btn_iconoReportes.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoReportes.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoReportes.FlatAppearance.BorderSize = 0;
+            this.btn_iconoReportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoReportes.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoReportes.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoReportes.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
+            this.btn_iconoReportes.IconColor = System.Drawing.Color.Red;
+            this.btn_iconoReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoReportes.Location = new System.Drawing.Point(0, 290);
+            this.btn_iconoReportes.Name = "btn_iconoReportes";
+            this.btn_iconoReportes.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoReportes.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoReportes.TabIndex = 10;
+            this.btn_iconoReportes.Text = "Reportes";
+            this.btn_iconoReportes.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoReportes.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoReportes.UseVisualStyleBackColor = false;
+            this.btn_iconoReportes.Click += new System.EventHandler(this.btn_iconoReportes_Click);
+            // 
+            // btn_iconoNomina
+            // 
+            this.btn_iconoNomina.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoNomina.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoNomina.FlatAppearance.BorderSize = 0;
+            this.btn_iconoNomina.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoNomina.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoNomina.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoNomina.IconChar = FontAwesome.Sharp.IconChar.MoneyBills;
+            this.btn_iconoNomina.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(160)))), ((int)(((byte)(8)))));
+            this.btn_iconoNomina.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoNomina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoNomina.Location = new System.Drawing.Point(0, 236);
+            this.btn_iconoNomina.Name = "btn_iconoNomina";
+            this.btn_iconoNomina.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoNomina.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoNomina.TabIndex = 9;
+            this.btn_iconoNomina.Text = "Nómina";
+            this.btn_iconoNomina.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoNomina.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoNomina.UseVisualStyleBackColor = false;
+            this.btn_iconoNomina.Click += new System.EventHandler(this.btn_iconoNomina_Click);
+            // 
+            // btn_iconoCorteCaja
+            // 
+            this.btn_iconoCorteCaja.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoCorteCaja.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoCorteCaja.FlatAppearance.BorderSize = 0;
+            this.btn_iconoCorteCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoCorteCaja.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoCorteCaja.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoCorteCaja.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
+            this.btn_iconoCorteCaja.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(160)))), ((int)(((byte)(220)))));
+            this.btn_iconoCorteCaja.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoCorteCaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCorteCaja.Location = new System.Drawing.Point(0, 182);
+            this.btn_iconoCorteCaja.Name = "btn_iconoCorteCaja";
+            this.btn_iconoCorteCaja.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoCorteCaja.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoCorteCaja.TabIndex = 8;
+            this.btn_iconoCorteCaja.Text = "Corte  Caja";
+            this.btn_iconoCorteCaja.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCorteCaja.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoCorteCaja.UseVisualStyleBackColor = false;
+            this.btn_iconoCorteCaja.Click += new System.EventHandler(this.btn_iconoCorteCaja_Click);
+            // 
+            // btn_iconoCobro
+            // 
+            this.btn_iconoCobro.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoCobro.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoCobro.FlatAppearance.BorderSize = 0;
+            this.btn_iconoCobro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoCobro.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoCobro.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoCobro.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
+            this.btn_iconoCobro.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(22)))), ((int)(((byte)(186)))));
+            this.btn_iconoCobro.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoCobro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCobro.Location = new System.Drawing.Point(0, 128);
+            this.btn_iconoCobro.Name = "btn_iconoCobro";
+            this.btn_iconoCobro.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoCobro.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoCobro.TabIndex = 7;
+            this.btn_iconoCobro.Text = "Cobro";
+            this.btn_iconoCobro.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCobro.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoCobro.UseVisualStyleBackColor = false;
+            this.btn_iconoCobro.Click += new System.EventHandler(this.btn_iconoCobro_Click);
+            // 
             // lbl_CerrarSesion
             // 
+            this.lbl_CerrarSesion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lbl_CerrarSesion.AutoSize = true;
             this.lbl_CerrarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
             this.lbl_CerrarSesion.Location = new System.Drawing.Point(67, 466);
@@ -152,6 +245,7 @@ namespace WTFBarber
             // 
             // btn_CerrarSesion
             // 
+            this.btn_CerrarSesion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btn_CerrarSesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_CerrarSesion.BackgroundImage")));
             this.btn_CerrarSesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_CerrarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -161,70 +255,6 @@ namespace WTFBarber
             this.btn_CerrarSesion.TabIndex = 3;
             this.btn_CerrarSesion.TabStop = false;
             this.btn_CerrarSesion.Click += new System.EventHandler(this.btn_CerrarSesion_Click);
-            // 
-            // btn_Reportes
-            // 
-            this.btn_Reportes.BackColor = System.Drawing.Color.Black;
-            this.btn_Reportes.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Reportes.FlatAppearance.BorderSize = 0;
-            this.btn_Reportes.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Reportes.Font = new System.Drawing.Font("Perpetua", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Reportes.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btn_Reportes.Location = new System.Drawing.Point(29, 323);
-            this.btn_Reportes.Name = "btn_Reportes";
-            this.btn_Reportes.Size = new System.Drawing.Size(159, 51);
-            this.btn_Reportes.TabIndex = 6;
-            this.btn_Reportes.Text = "Reportes";
-            this.btn_Reportes.UseVisualStyleBackColor = false;
-            this.btn_Reportes.Click += new System.EventHandler(this.btn_Reportes_Click);
-            // 
-            // btn_Nominas
-            // 
-            this.btn_Nominas.BackColor = System.Drawing.Color.Black;
-            this.btn_Nominas.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Nominas.FlatAppearance.BorderSize = 0;
-            this.btn_Nominas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Nominas.Font = new System.Drawing.Font("Perpetua", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Nominas.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btn_Nominas.Location = new System.Drawing.Point(29, 257);
-            this.btn_Nominas.Name = "btn_Nominas";
-            this.btn_Nominas.Size = new System.Drawing.Size(159, 51);
-            this.btn_Nominas.TabIndex = 5;
-            this.btn_Nominas.Text = "Nóminas";
-            this.btn_Nominas.UseVisualStyleBackColor = false;
-            this.btn_Nominas.Click += new System.EventHandler(this.btn_Nominas_Click);
-            // 
-            // btn_CorteCaja
-            // 
-            this.btn_CorteCaja.BackColor = System.Drawing.Color.Black;
-            this.btn_CorteCaja.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_CorteCaja.FlatAppearance.BorderSize = 0;
-            this.btn_CorteCaja.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_CorteCaja.Font = new System.Drawing.Font("Perpetua", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_CorteCaja.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btn_CorteCaja.Location = new System.Drawing.Point(29, 190);
-            this.btn_CorteCaja.Name = "btn_CorteCaja";
-            this.btn_CorteCaja.Size = new System.Drawing.Size(159, 51);
-            this.btn_CorteCaja.TabIndex = 4;
-            this.btn_CorteCaja.Text = "Corte de Caja";
-            this.btn_CorteCaja.UseVisualStyleBackColor = false;
-            this.btn_CorteCaja.Click += new System.EventHandler(this.btn_CorteCaja_Click);
-            // 
-            // btn_Cobro
-            // 
-            this.btn_Cobro.BackColor = System.Drawing.Color.Black;
-            this.btn_Cobro.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_Cobro.FlatAppearance.BorderSize = 0;
-            this.btn_Cobro.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Cobro.Font = new System.Drawing.Font("Perpetua", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Cobro.ForeColor = System.Drawing.SystemColors.MenuBar;
-            this.btn_Cobro.Location = new System.Drawing.Point(29, 127);
-            this.btn_Cobro.Name = "btn_Cobro";
-            this.btn_Cobro.Size = new System.Drawing.Size(159, 51);
-            this.btn_Cobro.TabIndex = 3;
-            this.btn_Cobro.Text = "Cobro";
-            this.btn_Cobro.UseVisualStyleBackColor = false;
-            this.btn_Cobro.Click += new System.EventHandler(this.btn_Cobro_Click);
             // 
             // button1
             // 
@@ -242,27 +272,23 @@ namespace WTFBarber
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox1.Location = new System.Drawing.Point(191, 135);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 212);
+            this.pictureBox1.Size = new System.Drawing.Size(344, 213);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
             // panelformulario
             // 
-            this.panelformulario.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelformulario.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.panelformulario.Controls.Add(this.pictureBox1);
-            this.panelformulario.Location = new System.Drawing.Point(226, 32);
+            this.panelformulario.Location = new System.Drawing.Point(228, 32);
             this.panelformulario.Name = "panelformulario";
-            this.panelformulario.Size = new System.Drawing.Size(773, 517);
+            this.panelformulario.Size = new System.Drawing.Size(773, 518);
             this.panelformulario.TabIndex = 3;
             // 
             // Dashboard
@@ -302,12 +328,12 @@ namespace WTFBarber
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btn_Maximizar;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button btn_Cobro;
-        private System.Windows.Forms.Button btn_Reportes;
-        private System.Windows.Forms.Button btn_Nominas;
-        private System.Windows.Forms.Button btn_CorteCaja;
         private System.Windows.Forms.Label lbl_CerrarSesion;
         private System.Windows.Forms.PictureBox btn_CerrarSesion;
         private System.Windows.Forms.Panel panelformulario;
+        private FontAwesome.Sharp.IconButton btn_iconoCobro;
+        private FontAwesome.Sharp.IconButton btn_iconoReportes;
+        private FontAwesome.Sharp.IconButton btn_iconoNomina;
+        private FontAwesome.Sharp.IconButton btn_iconoCorteCaja;
     }
 }

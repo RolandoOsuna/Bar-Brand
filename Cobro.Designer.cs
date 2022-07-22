@@ -155,15 +155,17 @@ namespace WTFBarber
             this.cmb_Producto.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cmb_Producto.Items.AddRange(new object[] {
             "Corte de Cabello",
-            "Corte con Navajas",
             "Corte de Niño",
             "Barba Completa",
             "Barba Media",
-            "Facial Exprés",
-            "Fascial Completo",
-            "Tinte de Barba",
             "Tinte de Cabello",
-            "Mascarilla Negra"});
+            "Tinte de Barba",
+            "Perfilado de Ceja",
+            "Mascarilla Negra",
+            "Facial Exfoliante",
+            "Facial Hidratante",
+            "Paquete Premium",
+            "Paquete Elite"});
             this.cmb_Producto.Location = new System.Drawing.Point(166, 144);
             this.cmb_Producto.Name = "cmb_Producto";
             this.cmb_Producto.RightToLeft = System.Windows.Forms.RightToLeft.No;
@@ -180,9 +182,9 @@ namespace WTFBarber
             this.cmb_Empleado.FormattingEnabled = true;
             this.cmb_Empleado.Items.AddRange(new object[] {
             "Saul",
-            "Gustavo",
-            "Jaz",
-            "Keila"});
+            "Eduardo",
+            "Jazmin",
+            "Hadamari"});
             this.cmb_Empleado.Location = new System.Drawing.Point(166, 256);
             this.cmb_Empleado.Name = "cmb_Empleado";
             this.cmb_Empleado.RightToLeft = System.Windows.Forms.RightToLeft.No;

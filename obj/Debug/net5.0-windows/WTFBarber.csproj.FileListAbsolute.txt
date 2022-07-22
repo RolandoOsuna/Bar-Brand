@@ -123,3 +123,4 @@ D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.genruntim
 D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\Interop.Microsoft.Office.Interop.Excel.dll
 D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.csproj.ResolveComReference.cache
 D:\Proyectos\WTFBarber-PuntodeVenta\bin\Debug\net5.0-windows\System.Linq.Dynamic.Core.dll
+D:\Proyectos\WTFBarber-PuntodeVenta\bin\Debug\net5.0-windows\FontAwesome.Sharp.dll
