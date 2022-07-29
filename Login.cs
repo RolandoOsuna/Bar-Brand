@@ -36,7 +36,6 @@ namespace WTFBarber
             }
             
         }
-
         private void txt_Usuario_Leave(object sender, EventArgs e)
         {
             if (txt_Usuario.Text == "")
@@ -70,16 +69,39 @@ namespace WTFBarber
         private void btn_Login_Click(object sender, EventArgs e)
         {
             Dashboard dashboard = new Dashboard();
+            using (var db = new wtfbarberContext.wtfbarberContext())
+            {
+                wtfbarberContext.Usuario usuario = new wtfbarberContext.Usuario()
+                {
+
+                };
+                var lts = from d in db.Usuarios 
+                          where d.NombreUsuario == txt_Usuario.Text 
+                          && d.ContrasenaUsuario == txt_Contra.Text 
+                          select d;
+                if (lts.Count() >0)
+                {
+                    MessageBox.Show("Bienvenido: "+ txt_Usuario.Text);
+                    dashboard.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    //MessageBox.Show("Usuario no existe");
+                    lbl_Error.Text = "Error \n Usuario y/o Contraseña incorrectos";
+                    limpiarTextbox();
+
+                }
+            }
+
+
+
             if (txt_Usuario.Text == "admin" &&  txt_Contra.Text == "admin")
             {
                 dashboard.Show();
                 this.Hide();
             }
-            else
-            {
-                lbl_Error.Text = "Error \n Usuario y/o Contraseña incorrectos";
-                limpiarTextbox();
-            }
+     
 
         }
         private void txt_Usuario_TextChanged(object sender, EventArgs e)

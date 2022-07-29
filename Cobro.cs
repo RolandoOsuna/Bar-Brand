@@ -38,26 +38,27 @@ namespace WTFBarber
                 MessageBox.Show("Completa todos los campos alv");
                 return;
             }
+            //CAMBIO
 
-            using (var db = new wtfbarberContext.wtfbarberContext())
-            {
-                wtfbarberContext.Venta venta = new wtfbarberContext.Venta()
+                using (var db = new wtfbarberContext.wtfbarberContext())
                 {
-                    EmpleadoVenta = cmb_Empleado.SelectedItem.ToString(),
-                    ProductoVenta = cmb_Producto.SelectedItem.ToString(),
-                    TotalFinalVenta = double.Parse(txt_Precio.Text),
-                    ComisionVenta = ComisionVenta,
-                    TotalComisionVenta = double.Parse(txt_Comision.Text),
-                    FechaVenta = DateTime.Now,
-                };
-                db.Add(venta);
-                db.SaveChanges();
-                limpiarTextbox();
-                mostrarlbl();
-                MessageBox.Show("Venta realizada");
+                    wtfbarberContext.Venta venta = new wtfbarberContext.Venta()
+                    {
+                        EmpleadoVenta = cmb_Empleado.SelectedItem.ToString(),
+                        ProductoVenta = cmb_Producto.SelectedItem.ToString(),
+                        TotalFinalVenta = double.Parse(txt_Precio.Text),
+                        ComisionVenta = ComisionVenta,
+                        TotalComisionVenta = double.Parse(txt_Comision.Text),
+                        FechaVenta = DateTime.Now,
+                    };
+                    db.Add(venta);
+                    db.SaveChanges();
+                    limpiarTextbox();
+                    mostrarlbl();
+                    MessageBox.Show("Venta realizada");
                
 
-            }
+                }
             //IMPRECION DE TICKET
             printDocument1 = new PrintDocument();
             PrinterSettings ps = new PrinterSettings();

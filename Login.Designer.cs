@@ -51,7 +51,7 @@ namespace WTFBarber
             this.txt_Usuario.Location = new System.Drawing.Point(114, 130);
             this.txt_Usuario.Name = "txt_Usuario";
             this.txt_Usuario.Size = new System.Drawing.Size(345, 26);
-            this.txt_Usuario.TabIndex = 1;
+            this.txt_Usuario.TabIndex = 0;
             this.txt_Usuario.Text = "USUARIO";
             this.txt_Usuario.TextChanged += new System.EventHandler(this.txt_Usuario_TextChanged);
             this.txt_Usuario.Enter += new System.EventHandler(this.txt_Usuario_Enter);
@@ -66,7 +66,7 @@ namespace WTFBarber
             this.txt_Contra.Location = new System.Drawing.Point(114, 174);
             this.txt_Contra.Name = "txt_Contra";
             this.txt_Contra.Size = new System.Drawing.Size(345, 26);
-            this.txt_Contra.TabIndex = 2;
+            this.txt_Contra.TabIndex = 1;
             this.txt_Contra.Text = "CONTRASEÑA";
             this.txt_Contra.TextChanged += new System.EventHandler(this.txt_Contra_TextChanged);
             this.txt_Contra.Enter += new System.EventHandler(this.txt_Contra_Enter);
@@ -84,7 +84,7 @@ namespace WTFBarber
             this.btn_Login.Location = new System.Drawing.Point(188, 254);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(194, 32);
-            this.btn_Login.TabIndex = 3;
+            this.btn_Login.TabIndex = 2;
             this.btn_Login.Text = "Iniciar Sesion";
             this.btn_Login.UseVisualStyleBackColor = false;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);

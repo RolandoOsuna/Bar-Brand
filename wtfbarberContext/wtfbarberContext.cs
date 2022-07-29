@@ -17,8 +17,11 @@ namespace WTFBarber.wtfbarberContext
         {
         }
 
+        public virtual DbSet<Cita> Citas { get; set; }
         public virtual DbSet<Cortecaja> Cortecajas { get; set; }
+        public virtual DbSet<Gasto> Gastos { get; set; }
         public virtual DbSet<Nomina> Nominas { get; set; }
+        public virtual DbSet<Usuario> Usuarios { get; set; }
         public virtual DbSet<Venta> Ventas { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -32,6 +35,25 @@ namespace WTFBarber.wtfbarberContext
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Cita>(entity =>
+            {
+                entity.HasKey(e => e.IdCita)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("citas");
+
+                entity.Property(e => e.IdCita).HasColumnName("idCita");
+
+                entity.Property(e => e.FechaCita).HasColumnName("fecha_cita");
+
+                entity.Property(e => e.NombreCita)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("nombre_cita");
+
+                entity.Property(e => e.TelefonoCita).HasColumnName("telefono_cita");
+            });
+
             modelBuilder.Entity<Cortecaja>(entity =>
             {
                 entity.HasKey(e => e.IdCorte)
@@ -52,6 +74,30 @@ namespace WTFBarber.wtfbarberContext
                 entity.Property(e => e.TotalVentasCorte).HasColumnName("totalVentas_corte");
             });
 
+            modelBuilder.Entity<Gasto>(entity =>
+            {
+                entity.HasKey(e => e.IdGasto)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("gastos");
+
+                entity.Property(e => e.IdGasto).HasColumnName("idGasto");
+
+                entity.Property(e => e.CantidadGasto).HasColumnName("cantidad_gasto");
+
+                entity.Property(e => e.DescripcionGasto)
+                    .IsRequired()
+                    .HasMaxLength(200)
+                    .HasColumnName("descripcion_gasto");
+
+                entity.Property(e => e.FechaGasto).HasColumnName("fecha_gasto");
+
+                entity.Property(e => e.NombreGasto)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("nombre_gasto");
+            });
+
             modelBuilder.Entity<Nomina>(entity =>
             {
                 entity.HasKey(e => e.IdNomina)
@@ -66,6 +112,33 @@ namespace WTFBarber.wtfbarberContext
                 entity.Property(e => e.TotalComisionNomina).HasColumnName("totalComision_nomina");
 
                 entity.Property(e => e.TotalNomina).HasColumnName("total_nomina");
+            });
+
+            modelBuilder.Entity<Usuario>(entity =>
+            {
+                entity.HasKey(e => e.IdUsuario)
+                    .HasName("PRIMARY");
+
+                entity.ToTable("usuario");
+
+                entity.Property(e => e.IdUsuario).HasColumnName("idUsuario");
+
+                entity.Property(e => e.ContrasenaUsuario)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("contrasena_usuario");
+
+                entity.Property(e => e.FechaUsuario).HasColumnName("fecha_usuario");
+
+                entity.Property(e => e.NombreUsuario)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("nombre_usuario");
+
+                entity.Property(e => e.PrivilegioUsuario)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("privilegio_usuario");
             });
 
             modelBuilder.Entity<Venta>(entity =>

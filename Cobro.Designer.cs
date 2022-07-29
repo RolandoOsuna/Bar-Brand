@@ -43,16 +43,21 @@ namespace WTFBarber
             this.txt_Comision = new System.Windows.Forms.TextBox();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.lbl = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_Producto
             // 
+            this.lbl_Producto.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Producto.AutoSize = true;
             this.lbl_Producto.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Producto.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Producto.Location = new System.Drawing.Point(166, 118);
+            this.lbl_Producto.Location = new System.Drawing.Point(166, 156);
             this.lbl_Producto.Name = "lbl_Producto";
             this.lbl_Producto.Size = new System.Drawing.Size(97, 23);
             this.lbl_Producto.TabIndex = 1;
@@ -60,10 +65,11 @@ namespace WTFBarber
             // 
             // lbl_Precio
             // 
+            this.lbl_Precio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Precio.AutoSize = true;
             this.lbl_Precio.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Precio.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Precio.Location = new System.Drawing.Point(454, 119);
+            this.lbl_Precio.Location = new System.Drawing.Point(454, 157);
             this.lbl_Precio.Name = "lbl_Precio";
             this.lbl_Precio.Size = new System.Drawing.Size(72, 23);
             this.lbl_Precio.TabIndex = 3;
@@ -71,13 +77,14 @@ namespace WTFBarber
             // 
             // txt_Precio
             // 
+            this.txt_Precio.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_Precio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_Precio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Precio.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Precio.Enabled = false;
             this.txt_Precio.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Precio.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Precio.Location = new System.Drawing.Point(454, 145);
+            this.txt_Precio.Location = new System.Drawing.Point(454, 183);
             this.txt_Precio.Name = "txt_Precio";
             this.txt_Precio.PlaceholderText = "$";
             this.txt_Precio.ShortcutsEnabled = false;
@@ -88,10 +95,11 @@ namespace WTFBarber
             // 
             // lbl_Empleado
             // 
+            this.lbl_Empleado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Empleado.AutoSize = true;
             this.lbl_Empleado.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Empleado.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Empleado.Location = new System.Drawing.Point(166, 230);
+            this.lbl_Empleado.Location = new System.Drawing.Point(166, 268);
             this.lbl_Empleado.Name = "lbl_Empleado";
             this.lbl_Empleado.Size = new System.Drawing.Size(108, 23);
             this.lbl_Empleado.TabIndex = 5;
@@ -99,10 +107,11 @@ namespace WTFBarber
             // 
             // label3
             // 
+            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label3.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(454, 231);
+            this.label3.Location = new System.Drawing.Point(454, 269);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(102, 23);
             this.label3.TabIndex = 7;
@@ -110,10 +119,11 @@ namespace WTFBarber
             // 
             // btn_Cobrar
             // 
+            this.btn_Cobrar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cobrar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Cobrar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cobrar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Cobrar.Location = new System.Drawing.Point(429, 377);
+            this.btn_Cobrar.Location = new System.Drawing.Point(429, 415);
             this.btn_Cobrar.Name = "btn_Cobrar";
             this.btn_Cobrar.Size = new System.Drawing.Size(145, 35);
             this.btn_Cobrar.TabIndex = 8;
@@ -123,11 +133,12 @@ namespace WTFBarber
             // 
             // btn_Cancelar
             // 
+            this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Cancelar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.Color.Red;
-            this.btn_Cancelar.Location = new System.Drawing.Point(221, 377);
+            this.btn_Cancelar.Location = new System.Drawing.Point(221, 415);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(145, 35);
             this.btn_Cancelar.TabIndex = 9;
@@ -137,9 +148,10 @@ namespace WTFBarber
             // 
             // lbl_Cobro
             // 
+            this.lbl_Cobro.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Cobro.AutoSize = true;
             this.lbl_Cobro.Font = new System.Drawing.Font("Perpetua Titling MT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Cobro.Location = new System.Drawing.Point(297, 25);
+            this.lbl_Cobro.Location = new System.Drawing.Point(297, 63);
             this.lbl_Cobro.Name = "lbl_Cobro";
             this.lbl_Cobro.Size = new System.Drawing.Size(213, 58);
             this.lbl_Cobro.TabIndex = 10;
@@ -147,6 +159,7 @@ namespace WTFBarber
             // 
             // cmb_Producto
             // 
+            this.cmb_Producto.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cmb_Producto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmb_Producto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmb_Producto.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -166,7 +179,7 @@ namespace WTFBarber
             "Facial Hidratante",
             "Paquete Premium",
             "Paquete Elite"});
-            this.cmb_Producto.Location = new System.Drawing.Point(166, 144);
+            this.cmb_Producto.Location = new System.Drawing.Point(166, 182);
             this.cmb_Producto.Name = "cmb_Producto";
             this.cmb_Producto.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmb_Producto.Size = new System.Drawing.Size(200, 27);
@@ -175,6 +188,7 @@ namespace WTFBarber
             // 
             // cmb_Empleado
             // 
+            this.cmb_Empleado.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.cmb_Empleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.cmb_Empleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmb_Empleado.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -185,7 +199,7 @@ namespace WTFBarber
             "Eduardo",
             "Jazmin",
             "Hadamari"});
-            this.cmb_Empleado.Location = new System.Drawing.Point(166, 256);
+            this.cmb_Empleado.Location = new System.Drawing.Point(166, 294);
             this.cmb_Empleado.Name = "cmb_Empleado";
             this.cmb_Empleado.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmb_Empleado.Size = new System.Drawing.Size(200, 27);
@@ -194,13 +208,14 @@ namespace WTFBarber
             // 
             // txt_Comision
             // 
+            this.txt_Comision.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_Comision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_Comision.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Comision.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Comision.Enabled = false;
             this.txt_Comision.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Comision.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Comision.Location = new System.Drawing.Point(454, 257);
+            this.txt_Comision.Location = new System.Drawing.Point(454, 295);
             this.txt_Comision.Name = "txt_Comision";
             this.txt_Comision.PlaceholderText = "%";
             this.txt_Comision.Size = new System.Drawing.Size(200, 26);
@@ -212,31 +227,57 @@ namespace WTFBarber
             // 
             // lbl
             // 
+            this.lbl.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl.AutoSize = true;
             this.lbl.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl.Location = new System.Drawing.Point(654, 353);
+            this.lbl.Location = new System.Drawing.Point(654, 391);
             this.lbl.Name = "lbl";
             this.lbl.Size = new System.Drawing.Size(0, 19);
             this.lbl.TabIndex = 33;
             this.lbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 365);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(141, 136);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 35;
+            this.pictureBox2.TabStop = false;
+            // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 9);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(200, 103);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.Size = new System.Drawing.Size(251, 139);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 34;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Visible = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(560, 41);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(176, 152);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 36;
+            this.pictureBox3.TabStop = false;
             // 
             // Cobro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 526);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lbl);
             this.Controls.Add(this.txt_Comision);
             this.Controls.Add(this.cmb_Empleado);
@@ -253,7 +294,9 @@ namespace WTFBarber
             this.Name = "Cobro";
             this.Text = "Prueba";
             this.Load += new System.EventHandler(this.Cobro_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -273,6 +316,8 @@ namespace WTFBarber
         private System.Windows.Forms.TextBox txt_Comision;
         private System.Drawing.Printing.PrintDocument printDocument1;
         private System.Windows.Forms.Label lbl;
+        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

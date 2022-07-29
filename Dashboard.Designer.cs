@@ -36,6 +36,10 @@ namespace WTFBarber
             this.btn_Minimizar = new System.Windows.Forms.PictureBox();
             this.btn_Restaurar = new System.Windows.Forms.PictureBox();
             this.Barra_Lateral = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_iconoCatalogo = new FontAwesome.Sharp.IconButton();
+            this.btn_iconoGastos = new FontAwesome.Sharp.IconButton();
+            this.btn_iconoCitas = new FontAwesome.Sharp.IconButton();
             this.btn_iconoReportes = new FontAwesome.Sharp.IconButton();
             this.btn_iconoNomina = new FontAwesome.Sharp.IconButton();
             this.btn_iconoCorteCaja = new FontAwesome.Sharp.IconButton();
@@ -51,6 +55,7 @@ namespace WTFBarber
             ((System.ComponentModel.ISupportInitialize)(this.btn_Minimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Restaurar)).BeginInit();
             this.Barra_Lateral.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_CerrarSesion)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelformulario.SuspendLayout();
@@ -126,6 +131,10 @@ namespace WTFBarber
             // Barra_Lateral
             // 
             this.Barra_Lateral.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.Barra_Lateral.Controls.Add(this.pictureBox2);
+            this.Barra_Lateral.Controls.Add(this.btn_iconoCatalogo);
+            this.Barra_Lateral.Controls.Add(this.btn_iconoGastos);
+            this.Barra_Lateral.Controls.Add(this.btn_iconoCitas);
             this.Barra_Lateral.Controls.Add(this.btn_iconoReportes);
             this.Barra_Lateral.Controls.Add(this.btn_iconoNomina);
             this.Barra_Lateral.Controls.Add(this.btn_iconoCorteCaja);
@@ -136,8 +145,89 @@ namespace WTFBarber
             this.Barra_Lateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.Barra_Lateral.Location = new System.Drawing.Point(0, 32);
             this.Barra_Lateral.Name = "Barra_Lateral";
-            this.Barra_Lateral.Size = new System.Drawing.Size(228, 518);
+            this.Barra_Lateral.Size = new System.Drawing.Size(228, 628);
             this.Barra_Lateral.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(1, 25);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(227, 96);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 15;
+            this.pictureBox2.TabStop = false;
+            // 
+            // btn_iconoCatalogo
+            // 
+            this.btn_iconoCatalogo.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoCatalogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoCatalogo.FlatAppearance.BorderSize = 0;
+            this.btn_iconoCatalogo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoCatalogo.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoCatalogo.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoCatalogo.IconChar = FontAwesome.Sharp.IconChar.Book;
+            this.btn_iconoCatalogo.IconColor = System.Drawing.Color.Chocolate;
+            this.btn_iconoCatalogo.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoCatalogo.IconSize = 40;
+            this.btn_iconoCatalogo.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCatalogo.Location = new System.Drawing.Point(0, 462);
+            this.btn_iconoCatalogo.Name = "btn_iconoCatalogo";
+            this.btn_iconoCatalogo.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoCatalogo.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoCatalogo.TabIndex = 13;
+            this.btn_iconoCatalogo.Text = "Catálogo";
+            this.btn_iconoCatalogo.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoCatalogo.UseVisualStyleBackColor = false;
+            this.btn_iconoCatalogo.Click += new System.EventHandler(this.btn_iconoCatalogo_Click);
+            // 
+            // btn_iconoGastos
+            // 
+            this.btn_iconoGastos.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoGastos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoGastos.FlatAppearance.BorderSize = 0;
+            this.btn_iconoGastos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoGastos.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoGastos.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoGastos.IconChar = FontAwesome.Sharp.IconChar.CommentDollar;
+            this.btn_iconoGastos.IconColor = System.Drawing.Color.White;
+            this.btn_iconoGastos.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoGastos.IconSize = 40;
+            this.btn_iconoGastos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoGastos.Location = new System.Drawing.Point(0, 354);
+            this.btn_iconoGastos.Name = "btn_iconoGastos";
+            this.btn_iconoGastos.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoGastos.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoGastos.TabIndex = 12;
+            this.btn_iconoGastos.Text = "Gastos";
+            this.btn_iconoGastos.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoGastos.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoGastos.UseVisualStyleBackColor = false;
+            this.btn_iconoGastos.Click += new System.EventHandler(this.btn_iconoGastos_Click);
+            // 
+            // btn_iconoCitas
+            // 
+            this.btn_iconoCitas.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.btn_iconoCitas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.btn_iconoCitas.FlatAppearance.BorderSize = 0;
+            this.btn_iconoCitas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_iconoCitas.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_iconoCitas.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btn_iconoCitas.IconChar = FontAwesome.Sharp.IconChar.CalendarCheck;
+            this.btn_iconoCitas.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(191)))), ((int)(((byte)(0)))));
+            this.btn_iconoCitas.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoCitas.IconSize = 40;
+            this.btn_iconoCitas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCitas.Location = new System.Drawing.Point(0, 192);
+            this.btn_iconoCitas.Name = "btn_iconoCitas";
+            this.btn_iconoCitas.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
+            this.btn_iconoCitas.Size = new System.Drawing.Size(228, 48);
+            this.btn_iconoCitas.TabIndex = 11;
+            this.btn_iconoCitas.Text = "Citas";
+            this.btn_iconoCitas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_iconoCitas.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            this.btn_iconoCitas.UseVisualStyleBackColor = false;
+            this.btn_iconoCitas.Click += new System.EventHandler(this.btn_iconoCitas_Click);
             // 
             // btn_iconoReportes
             // 
@@ -150,8 +240,9 @@ namespace WTFBarber
             this.btn_iconoReportes.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
             this.btn_iconoReportes.IconColor = System.Drawing.Color.Red;
             this.btn_iconoReportes.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoReportes.IconSize = 40;
             this.btn_iconoReportes.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_iconoReportes.Location = new System.Drawing.Point(0, 290);
+            this.btn_iconoReportes.Location = new System.Drawing.Point(0, 408);
             this.btn_iconoReportes.Name = "btn_iconoReportes";
             this.btn_iconoReportes.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btn_iconoReportes.Size = new System.Drawing.Size(228, 48);
@@ -173,8 +264,9 @@ namespace WTFBarber
             this.btn_iconoNomina.IconChar = FontAwesome.Sharp.IconChar.MoneyBills;
             this.btn_iconoNomina.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(160)))), ((int)(((byte)(8)))));
             this.btn_iconoNomina.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoNomina.IconSize = 40;
             this.btn_iconoNomina.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_iconoNomina.Location = new System.Drawing.Point(0, 236);
+            this.btn_iconoNomina.Location = new System.Drawing.Point(0, 300);
             this.btn_iconoNomina.Name = "btn_iconoNomina";
             this.btn_iconoNomina.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btn_iconoNomina.Size = new System.Drawing.Size(228, 48);
@@ -196,8 +288,9 @@ namespace WTFBarber
             this.btn_iconoCorteCaja.IconChar = FontAwesome.Sharp.IconChar.CashRegister;
             this.btn_iconoCorteCaja.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(160)))), ((int)(((byte)(220)))));
             this.btn_iconoCorteCaja.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoCorteCaja.IconSize = 40;
             this.btn_iconoCorteCaja.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_iconoCorteCaja.Location = new System.Drawing.Point(0, 182);
+            this.btn_iconoCorteCaja.Location = new System.Drawing.Point(0, 246);
             this.btn_iconoCorteCaja.Name = "btn_iconoCorteCaja";
             this.btn_iconoCorteCaja.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btn_iconoCorteCaja.Size = new System.Drawing.Size(228, 48);
@@ -219,8 +312,9 @@ namespace WTFBarber
             this.btn_iconoCobro.IconChar = FontAwesome.Sharp.IconChar.ShoppingCart;
             this.btn_iconoCobro.IconColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(22)))), ((int)(((byte)(186)))));
             this.btn_iconoCobro.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btn_iconoCobro.IconSize = 40;
             this.btn_iconoCobro.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btn_iconoCobro.Location = new System.Drawing.Point(0, 128);
+            this.btn_iconoCobro.Location = new System.Drawing.Point(0, 138);
             this.btn_iconoCobro.Name = "btn_iconoCobro";
             this.btn_iconoCobro.Padding = new System.Windows.Forms.Padding(10, 0, 20, 0);
             this.btn_iconoCobro.Size = new System.Drawing.Size(228, 48);
@@ -236,9 +330,10 @@ namespace WTFBarber
             this.lbl_CerrarSesion.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.lbl_CerrarSesion.AutoSize = true;
             this.lbl_CerrarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lbl_CerrarSesion.Location = new System.Drawing.Point(67, 466);
+            this.lbl_CerrarSesion.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_CerrarSesion.Location = new System.Drawing.Point(53, 581);
             this.lbl_CerrarSesion.Name = "lbl_CerrarSesion";
-            this.lbl_CerrarSesion.Size = new System.Drawing.Size(76, 15);
+            this.lbl_CerrarSesion.Size = new System.Drawing.Size(86, 17);
             this.lbl_CerrarSesion.TabIndex = 3;
             this.lbl_CerrarSesion.Text = "Cerrar Sesión";
             this.lbl_CerrarSesion.Click += new System.EventHandler(this.lbl_CerrarSesion_Click);
@@ -249,9 +344,9 @@ namespace WTFBarber
             this.btn_CerrarSesion.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_CerrarSesion.BackgroundImage")));
             this.btn_CerrarSesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btn_CerrarSesion.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_CerrarSesion.Location = new System.Drawing.Point(12, 466);
+            this.btn_CerrarSesion.Location = new System.Drawing.Point(12, 581);
             this.btn_CerrarSesion.Name = "btn_CerrarSesion";
-            this.btn_CerrarSesion.Size = new System.Drawing.Size(49, 40);
+            this.btn_CerrarSesion.Size = new System.Drawing.Size(35, 35);
             this.btn_CerrarSesion.TabIndex = 3;
             this.btn_CerrarSesion.TabStop = false;
             this.btn_CerrarSesion.Click += new System.EventHandler(this.btn_CerrarSesion_Click);
@@ -275,10 +370,10 @@ namespace WTFBarber
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox1.Location = new System.Drawing.Point(191, 135);
+            this.pictureBox1.Location = new System.Drawing.Point(191, 190);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 213);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.Size = new System.Drawing.Size(358, 213);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
             // 
@@ -288,7 +383,7 @@ namespace WTFBarber
             this.panelformulario.Controls.Add(this.pictureBox1);
             this.panelformulario.Location = new System.Drawing.Point(228, 32);
             this.panelformulario.Name = "panelformulario";
-            this.panelformulario.Size = new System.Drawing.Size(773, 518);
+            this.panelformulario.Size = new System.Drawing.Size(773, 628);
             this.panelformulario.TabIndex = 3;
             // 
             // Dashboard
@@ -296,7 +391,7 @@ namespace WTFBarber
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(1000, 550);
+            this.ClientSize = new System.Drawing.Size(1000, 660);
             this.Controls.Add(this.panelformulario);
             this.Controls.Add(this.Barra_Lateral);
             this.Controls.Add(this.Barra_Titulo);
@@ -311,6 +406,7 @@ namespace WTFBarber
             ((System.ComponentModel.ISupportInitialize)(this.btn_Restaurar)).EndInit();
             this.Barra_Lateral.ResumeLayout(false);
             this.Barra_Lateral.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_CerrarSesion)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelformulario.ResumeLayout(false);
@@ -335,5 +431,9 @@ namespace WTFBarber
         private FontAwesome.Sharp.IconButton btn_iconoReportes;
         private FontAwesome.Sharp.IconButton btn_iconoNomina;
         private FontAwesome.Sharp.IconButton btn_iconoCorteCaja;
+        private FontAwesome.Sharp.IconButton btn_iconoGastos;
+        private FontAwesome.Sharp.IconButton btn_iconoCitas;
+        private FontAwesome.Sharp.IconButton btn_iconoCatalogo;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

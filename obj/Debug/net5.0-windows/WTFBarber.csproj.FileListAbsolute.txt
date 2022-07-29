@@ -124,3 +124,6 @@ D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\Interop.Microsoft.O
 D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.csproj.ResolveComReference.cache
 D:\Proyectos\WTFBarber-PuntodeVenta\bin\Debug\net5.0-windows\System.Linq.Dynamic.Core.dll
 D:\Proyectos\WTFBarber-PuntodeVenta\bin\Debug\net5.0-windows\FontAwesome.Sharp.dll
+D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Citas.resources
+D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Gastos.resources
+D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Cambio_Cobro.resources

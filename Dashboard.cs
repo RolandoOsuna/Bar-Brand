@@ -15,6 +15,7 @@ namespace WTFBarber
     {
         private IconButton currentBtn;
         private Panel leftBorderBtn;
+        private Form currentChildForm;
 
         public Dashboard()
         {
@@ -22,7 +23,7 @@ namespace WTFBarber
             leftBorderBtn = new Panel();
             leftBorderBtn.Size = new Size(7,48);
             Barra_Lateral.Controls.Add(leftBorderBtn);
-
+            this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
         }
         //Métodos Btn_iconos
         private void ActiveButton(object senderBtn, Color color)
@@ -44,6 +45,8 @@ namespace WTFBarber
                 leftBorderBtn.BringToFront();
             }
         }
+
+    
 
         private void DisableButton()
         {
@@ -169,6 +172,31 @@ namespace WTFBarber
         {
             ActiveButton(sender, Color.FromArgb(255, 0, 0));
             AbrirFormulario<Reportes>();
+        }
+
+        private void btn_iconoCitas_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, Color.FromArgb(255, 191, 0));
+            AbrirFormulario<Citas>();
+        }
+
+        private void btn_iconoGastos_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, Color.White);
+            AbrirFormulario<Gastos>();
+        }
+
+        private void btn_iconoCatalogo_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, Color.Chocolate);
+
+        }
+
+        private void btn_iconoInicio_Click(object sender, EventArgs e)
+        {
+            ActiveButton(sender, Color.Silver);
+            //Dashboard.Show();
+
         }
     }
 }

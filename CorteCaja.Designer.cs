@@ -47,15 +47,20 @@ namespace WTFBarber
             this.btn_Imprimir = new System.Windows.Forms.Button();
             this.dgv = new System.Windows.Forms.DataGridView();
             this.dtp = new System.Windows.Forms.DateTimePicker();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // lbl_CorteCaja
             // 
+            this.lbl_CorteCaja.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_CorteCaja.AutoSize = true;
             this.lbl_CorteCaja.Font = new System.Drawing.Font("Perpetua Titling MT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_CorteCaja.Location = new System.Drawing.Point(246, 9);
+            this.lbl_CorteCaja.Location = new System.Drawing.Point(239, 9);
             this.lbl_CorteCaja.Name = "lbl_CorteCaja";
             this.lbl_CorteCaja.Size = new System.Drawing.Size(360, 48);
             this.lbl_CorteCaja.TabIndex = 11;
@@ -63,11 +68,12 @@ namespace WTFBarber
             // 
             // btn_Cancelar
             // 
+            this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Cancelar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.Color.Red;
-            this.btn_Cancelar.Location = new System.Drawing.Point(268, 377);
+            this.btn_Cancelar.Location = new System.Drawing.Point(261, 377);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(118, 35);
             this.btn_Cancelar.TabIndex = 21;
@@ -77,10 +83,11 @@ namespace WTFBarber
             // 
             // btn_Aceptar
             // 
+            this.btn_Aceptar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Aceptar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Aceptar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Aceptar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Aceptar.Location = new System.Drawing.Point(392, 377);
+            this.btn_Aceptar.Location = new System.Drawing.Point(385, 377);
             this.btn_Aceptar.Name = "btn_Aceptar";
             this.btn_Aceptar.Size = new System.Drawing.Size(118, 35);
             this.btn_Aceptar.TabIndex = 20;
@@ -90,10 +97,11 @@ namespace WTFBarber
             // 
             // lbl_Ganancia
             // 
+            this.lbl_Ganancia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Ganancia.AutoSize = true;
             this.lbl_Ganancia.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Ganancia.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Ganancia.Location = new System.Drawing.Point(32, 271);
+            this.lbl_Ganancia.Location = new System.Drawing.Point(25, 271);
             this.lbl_Ganancia.Name = "lbl_Ganancia";
             this.lbl_Ganancia.Size = new System.Drawing.Size(101, 23);
             this.lbl_Ganancia.TabIndex = 15;
@@ -101,13 +109,14 @@ namespace WTFBarber
             // 
             // txt_Ganancia
             // 
+            this.txt_Ganancia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_Ganancia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_Ganancia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Ganancia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Ganancia.Enabled = false;
             this.txt_Ganancia.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Ganancia.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Ganancia.Location = new System.Drawing.Point(32, 297);
+            this.txt_Ganancia.Location = new System.Drawing.Point(25, 297);
             this.txt_Ganancia.Name = "txt_Ganancia";
             this.txt_Ganancia.PlaceholderText = "$";
             this.txt_Ganancia.Size = new System.Drawing.Size(200, 26);
@@ -115,10 +124,11 @@ namespace WTFBarber
             // 
             // label1
             // 
+            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
             this.label1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(32, 200);
+            this.label1.Location = new System.Drawing.Point(25, 200);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(158, 23);
             this.label1.TabIndex = 23;
@@ -126,13 +136,14 @@ namespace WTFBarber
             // 
             // txt_TotalVentas
             // 
+            this.txt_TotalVentas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_TotalVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_TotalVentas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_TotalVentas.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_TotalVentas.Enabled = false;
             this.txt_TotalVentas.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_TotalVentas.ForeColor = System.Drawing.Color.Silver;
-            this.txt_TotalVentas.Location = new System.Drawing.Point(32, 226);
+            this.txt_TotalVentas.Location = new System.Drawing.Point(25, 226);
             this.txt_TotalVentas.Name = "txt_TotalVentas";
             this.txt_TotalVentas.PlaceholderText = "$";
             this.txt_TotalVentas.Size = new System.Drawing.Size(200, 26);
@@ -140,10 +151,11 @@ namespace WTFBarber
             // 
             // lbl_ProductosVendidos
             // 
+            this.lbl_ProductosVendidos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_ProductosVendidos.AutoSize = true;
             this.lbl_ProductosVendidos.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_ProductosVendidos.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_ProductosVendidos.Location = new System.Drawing.Point(27, 133);
+            this.lbl_ProductosVendidos.Location = new System.Drawing.Point(20, 133);
             this.lbl_ProductosVendidos.Name = "lbl_ProductosVendidos";
             this.lbl_ProductosVendidos.Size = new System.Drawing.Size(205, 23);
             this.lbl_ProductosVendidos.TabIndex = 25;
@@ -151,6 +163,7 @@ namespace WTFBarber
             // 
             // txt_ProductosVendidos
             // 
+            this.txt_ProductosVendidos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_ProductosVendidos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_ProductosVendidos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ProductosVendidos.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -158,17 +171,18 @@ namespace WTFBarber
             this.txt_ProductosVendidos.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_ProductosVendidos.ForeColor = System.Drawing.Color.Silver;
             this.txt_ProductosVendidos.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txt_ProductosVendidos.Location = new System.Drawing.Point(32, 159);
+            this.txt_ProductosVendidos.Location = new System.Drawing.Point(25, 159);
             this.txt_ProductosVendidos.Name = "txt_ProductosVendidos";
             this.txt_ProductosVendidos.Size = new System.Drawing.Size(200, 26);
             this.txt_ProductosVendidos.TabIndex = 24;
             // 
             // lbl_Comisiones
             // 
+            this.lbl_Comisiones.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Comisiones.AutoSize = true;
             this.lbl_Comisiones.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Comisiones.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Comisiones.Location = new System.Drawing.Point(518, 315);
+            this.lbl_Comisiones.Location = new System.Drawing.Point(511, 315);
             this.lbl_Comisiones.Name = "lbl_Comisiones";
             this.lbl_Comisiones.Size = new System.Drawing.Size(124, 23);
             this.lbl_Comisiones.TabIndex = 27;
@@ -176,6 +190,7 @@ namespace WTFBarber
             // 
             // txt_Comisiones
             // 
+            this.txt_Comisiones.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txt_Comisiones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.txt_Comisiones.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Comisiones.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -183,7 +198,7 @@ namespace WTFBarber
             this.txt_Comisiones.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Comisiones.ForeColor = System.Drawing.Color.Silver;
             this.txt_Comisiones.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txt_Comisiones.Location = new System.Drawing.Point(518, 341);
+            this.txt_Comisiones.Location = new System.Drawing.Point(511, 341);
             this.txt_Comisiones.Name = "txt_Comisiones";
             this.txt_Comisiones.PlaceholderText = "%";
             this.txt_Comisiones.Size = new System.Drawing.Size(200, 26);
@@ -191,10 +206,11 @@ namespace WTFBarber
             // 
             // btn_MostrarDatos
             // 
+            this.btn_MostrarDatos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_MostrarDatos.Font = new System.Drawing.Font("Perpetua", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_MostrarDatos.Location = new System.Drawing.Point(349, 82);
+            this.btn_MostrarDatos.Location = new System.Drawing.Point(342, 82);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
             this.btn_MostrarDatos.Size = new System.Drawing.Size(118, 40);
             this.btn_MostrarDatos.TabIndex = 28;
@@ -204,8 +220,9 @@ namespace WTFBarber
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(598, 12);
+            this.pictureBox1.Location = new System.Drawing.Point(12, -27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -219,9 +236,10 @@ namespace WTFBarber
             // 
             // btn_Imprimir
             // 
+            this.btn_Imprimir.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Imprimir.Font = new System.Drawing.Font("Perpetua", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Imprimir.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn_Imprimir.Location = new System.Drawing.Point(349, 418);
+            this.btn_Imprimir.Location = new System.Drawing.Point(342, 418);
             this.btn_Imprimir.Name = "btn_Imprimir";
             this.btn_Imprimir.Size = new System.Drawing.Size(90, 35);
             this.btn_Imprimir.TabIndex = 36;
@@ -231,8 +249,9 @@ namespace WTFBarber
             // 
             // dgv
             // 
+            this.dgv.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv.Location = new System.Drawing.Point(246, 133);
+            this.dgv.Location = new System.Drawing.Point(239, 133);
             this.dgv.Name = "dgv";
             this.dgv.RowTemplate.Height = 25;
             this.dgv.Size = new System.Drawing.Size(497, 166);
@@ -240,16 +259,38 @@ namespace WTFBarber
             // 
             // dtp
             // 
+            this.dtp.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp.CalendarMonthBackground = System.Drawing.SystemColors.HotTrack;
             this.dtp.CalendarTitleBackColor = System.Drawing.SystemColors.ControlText;
             this.dtp.CalendarTitleForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.dtp.Checked = false;
             this.dtp.CustomFormat = "dd/MM/yyyy";
             this.dtp.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtp.Location = new System.Drawing.Point(43, 82);
+            this.dtp.Location = new System.Drawing.Point(36, 82);
             this.dtp.Name = "dtp";
             this.dtp.Size = new System.Drawing.Size(90, 23);
             this.dtp.TabIndex = 38;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(12, 386);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(141, 136);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 39;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(593, 4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(176, 152);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 40;
+            this.pictureBox3.TabStop = false;
             // 
             // CorteCaja
             // 
@@ -257,7 +298,9 @@ namespace WTFBarber
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(800, 534);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.dtp);
             this.Controls.Add(this.dgv);
             this.Controls.Add(this.btn_Imprimir);
@@ -279,6 +322,8 @@ namespace WTFBarber
             this.Load += new System.EventHandler(this.CorteCaja_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,5 +348,7 @@ namespace WTFBarber
         private System.Windows.Forms.Button btn_Imprimir;
         private System.Windows.Forms.DataGridView dgv;
         private System.Windows.Forms.DateTimePicker dtp;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
