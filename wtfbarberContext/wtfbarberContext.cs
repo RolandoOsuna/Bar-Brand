@@ -51,7 +51,10 @@ namespace WTFBarber.wtfbarberContext
                     .HasMaxLength(100)
                     .HasColumnName("nombre_cita");
 
-                entity.Property(e => e.TelefonoCita).HasColumnName("telefono_cita");
+                entity.Property(e => e.TelefonoCita)
+                    .IsRequired()
+                    .HasMaxLength(100)
+                    .HasColumnName("telefono_cita");
             });
 
             modelBuilder.Entity<Cortecaja>(entity =>

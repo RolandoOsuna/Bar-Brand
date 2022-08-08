@@ -13,6 +13,7 @@ namespace WTFBarber
 {
     public partial class Dashboard : Form
     {
+        public static string PrivilegioUsuario;
         private IconButton currentBtn;
         private Panel leftBorderBtn;
         private Form currentChildForm;
@@ -24,6 +25,31 @@ namespace WTFBarber
             leftBorderBtn.Size = new Size(7,48);
             Barra_Lateral.Controls.Add(leftBorderBtn);
             this.MaximizedBounds = Screen.FromHandle(this.Handle).WorkingArea;
+        }
+        private void Dashboard_Load(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            using(var db = new wtfbarberContext.wtfbarberContext())
+            {
+                PrivilegioUsuario =( from d in db.Usuarios
+                              select d.PrivilegioUsuario).ToString();
+
+                if(PrivilegioUsuario.ToString() == "Admin")
+                {
+                    btn_iconoCatalogo.Enabled = false;
+                    btn_iconoCorteCaja.Enabled = false;
+                    btn_iconoNomina.Enabled = false;
+                    btn_iconoReportes.Enabled = false;
+                    
+                }
+                else 
+                {
+                    btn_iconoCatalogo.Enabled = true;
+                    btn_iconoCorteCaja.Enabled = true;
+                    btn_iconoNomina.Enabled = true;
+                    btn_iconoReportes.Enabled = true;
+                }
+            }
         }
         //Métodos Btn_iconos
         private void ActiveButton(object senderBtn, Color color)
@@ -45,9 +71,6 @@ namespace WTFBarber
                 leftBorderBtn.BringToFront();
             }
         }
-
-    
-
         private void DisableButton()
         {
             if(currentBtn != null)
@@ -109,22 +132,7 @@ namespace WTFBarber
             CerrarSesion();
         }
 
-        private void btn_Cobro_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario<Cobro>();
-        }
-        private void btn_CorteCaja_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario<CorteCaja>();
-        }
-        private void btn_Nominas_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario<Nomina>();
-        }
-        private void btn_Reportes_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario<Reportes>();
-        }
+       
 
         private void AbrirFormulario<MiForm>() where MiForm : Form, new()
         {
@@ -198,5 +206,12 @@ namespace WTFBarber
             //Dashboard.Show();
 
         }
+
+        private void panelformulario_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        
     }
 }

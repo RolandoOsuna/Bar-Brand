@@ -32,13 +32,15 @@ namespace WTFBarber
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Gastos));
             this.lbl_Gastos = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txt_Nombre = new System.Windows.Forms.TextBox();
+            this.lbl_Nombre = new System.Windows.Forms.Label();
+            this.lbl_Cantidad = new System.Windows.Forms.Label();
+            this.txt_Cantidad = new System.Windows.Forms.TextBox();
+            this.lbl_Descripcion = new System.Windows.Forms.Label();
+            this.txt_Descripcion = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.btn_Cancelar = new System.Windows.Forms.Button();
+            this.btn_Agregar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -58,73 +60,74 @@ namespace WTFBarber
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(588, 101);
+            this.pictureBox1.Location = new System.Drawing.Point(569, 9);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(142, 140);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 49;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txt_Nombre
             // 
-            this.textBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(95, 126);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 23);
-            this.textBox1.TabIndex = 50;
+            this.txt_Nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_Nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Nombre.Location = new System.Drawing.Point(95, 126);
+            this.txt_Nombre.Name = "txt_Nombre";
+            this.txt_Nombre.Size = new System.Drawing.Size(100, 23);
+            this.txt_Nombre.TabIndex = 50;
             // 
-            // label1
+            // lbl_Nombre
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(95, 101);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(82, 22);
-            this.label1.TabIndex = 51;
-            this.label1.Text = "Nombre";
+            this.lbl_Nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbl_Nombre.AutoSize = true;
+            this.lbl_Nombre.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Nombre.Location = new System.Drawing.Point(95, 101);
+            this.lbl_Nombre.Name = "lbl_Nombre";
+            this.lbl_Nombre.Size = new System.Drawing.Size(82, 22);
+            this.lbl_Nombre.TabIndex = 51;
+            this.lbl_Nombre.Text = "Nombre";
             // 
-            // label2
+            // lbl_Cantidad
             // 
-            this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(95, 166);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(92, 22);
-            this.label2.TabIndex = 53;
-            this.label2.Text = "Cantidad";
+            this.lbl_Cantidad.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbl_Cantidad.AutoSize = true;
+            this.lbl_Cantidad.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Cantidad.Location = new System.Drawing.Point(95, 166);
+            this.lbl_Cantidad.Name = "lbl_Cantidad";
+            this.lbl_Cantidad.Size = new System.Drawing.Size(92, 22);
+            this.lbl_Cantidad.TabIndex = 53;
+            this.lbl_Cantidad.Text = "Cantidad";
             // 
-            // textBox2
+            // txt_Cantidad
             // 
-            this.textBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox2.Location = new System.Drawing.Point(95, 191);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 23);
-            this.textBox2.TabIndex = 52;
+            this.txt_Cantidad.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_Cantidad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Cantidad.Location = new System.Drawing.Point(95, 191);
+            this.txt_Cantidad.Name = "txt_Cantidad";
+            this.txt_Cantidad.Size = new System.Drawing.Size(100, 23);
+            this.txt_Cantidad.TabIndex = 52;
+            this.txt_Cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Cantidad_KeyPress);
             // 
-            // label3
+            // lbl_Descripcion
             // 
-            this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(95, 231);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 22);
-            this.label3.TabIndex = 55;
-            this.label3.Text = "Descripción";
+            this.lbl_Descripcion.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.lbl_Descripcion.AutoSize = true;
+            this.lbl_Descripcion.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Descripcion.Location = new System.Drawing.Point(95, 231);
+            this.lbl_Descripcion.Name = "lbl_Descripcion";
+            this.lbl_Descripcion.Size = new System.Drawing.Size(116, 22);
+            this.lbl_Descripcion.TabIndex = 55;
+            this.lbl_Descripcion.Text = "Descripción";
             // 
-            // textBox3
+            // txt_Descripcion
             // 
-            this.textBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.textBox3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox3.Location = new System.Drawing.Point(95, 256);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(469, 144);
-            this.textBox3.TabIndex = 54;
+            this.txt_Descripcion.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_Descripcion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Descripcion.Location = new System.Drawing.Point(95, 256);
+            this.txt_Descripcion.Multiline = true;
+            this.txt_Descripcion.Name = "txt_Descripcion";
+            this.txt_Descripcion.Size = new System.Drawing.Size(469, 144);
+            this.txt_Descripcion.TabIndex = 54;
             // 
             // pictureBox2
             // 
@@ -137,24 +140,56 @@ namespace WTFBarber
             this.pictureBox2.TabIndex = 63;
             this.pictureBox2.TabStop = false;
             // 
+            // btn_Cancelar
+            // 
+            this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_Cancelar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_Cancelar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.ForeColor = System.Drawing.Color.Red;
+            this.btn_Cancelar.Location = new System.Drawing.Point(408, 167);
+            this.btn_Cancelar.Name = "btn_Cancelar";
+            this.btn_Cancelar.Size = new System.Drawing.Size(119, 35);
+            this.btn_Cancelar.TabIndex = 65;
+            this.btn_Cancelar.Text = "Cancelar";
+            this.btn_Cancelar.UseVisualStyleBackColor = false;
+            this.btn_Cancelar.Click += new System.EventHandler(this.btn_Cancelar_Click);
+            // 
+            // btn_Agregar
+            // 
+            this.btn_Agregar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.System;
+            this.btn_Agregar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Agregar.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btn_Agregar.Location = new System.Drawing.Point(408, 126);
+            this.btn_Agregar.Name = "btn_Agregar";
+            this.btn_Agregar.Size = new System.Drawing.Size(119, 35);
+            this.btn_Agregar.TabIndex = 64;
+            this.btn_Agregar.Text = "Agregar";
+            this.btn_Agregar.UseVisualStyleBackColor = true;
+            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
+            // 
             // Gastos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btn_Cancelar);
+            this.Controls.Add(this.btn_Agregar);
             this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.lbl_Descripcion);
+            this.Controls.Add(this.txt_Descripcion);
+            this.Controls.Add(this.lbl_Cantidad);
+            this.Controls.Add(this.txt_Cantidad);
+            this.Controls.Add(this.lbl_Nombre);
+            this.Controls.Add(this.txt_Nombre);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl_Gastos);
             this.Name = "Gastos";
             this.Text = "Gastos";
             this.Load += new System.EventHandler(this.Gastos_Load);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Gastos_KeyPress);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
@@ -166,12 +201,14 @@ namespace WTFBarber
 
         private System.Windows.Forms.Label lbl_Gastos;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txt_Nombre;
+        private System.Windows.Forms.Label lbl_Nombre;
+        private System.Windows.Forms.Label lbl_Cantidad;
+        private System.Windows.Forms.TextBox txt_Cantidad;
+        private System.Windows.Forms.Label lbl_Descripcion;
+        private System.Windows.Forms.TextBox txt_Descripcion;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Button btn_Cancelar;
+        private System.Windows.Forms.Button btn_Agregar;
     }
 }

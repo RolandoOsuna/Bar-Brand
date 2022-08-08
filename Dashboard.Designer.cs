@@ -385,6 +385,7 @@ namespace WTFBarber
             this.panelformulario.Name = "panelformulario";
             this.panelformulario.Size = new System.Drawing.Size(773, 628);
             this.panelformulario.TabIndex = 3;
+            this.panelformulario.Paint += new System.Windows.Forms.PaintEventHandler(this.panelformulario_Paint);
             // 
             // Dashboard
             // 
@@ -399,6 +400,7 @@ namespace WTFBarber
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Dashboard";
             this.Text = "Dashboard";
+            this.Load += new System.EventHandler(this.Dashboard_Load);
             this.Barra_Titulo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.btn_Maximizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bnt_Cerrar)).EndInit();

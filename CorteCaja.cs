@@ -50,7 +50,7 @@ namespace WTFBarber
             //VALIDACIÓN COMPLETAR CAMPOS
             if (txt_Ganancia.Text == "" || txt_Comisiones.Text == "" || txt_ProductosVendidos.Text == "" || txt_TotalVentas.Text == "")
             {
-                MessageBox.Show("Completa todos los campos alv");
+                MessageBox.Show("Completa todos los campos");
             }
             else
             {

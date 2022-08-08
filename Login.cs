@@ -24,7 +24,7 @@ namespace WTFBarber
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void txt_Usuario_Enter(object sender, EventArgs e)

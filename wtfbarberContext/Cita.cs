@@ -9,7 +9,7 @@ namespace WTFBarber.wtfbarberContext
     {
         public int IdCita { get; set; }
         public string NombreCita { get; set; }
-        public int TelefonoCita { get; set; }
+        public string TelefonoCita { get; set; }
         public DateTime FechaCita { get; set; }
     }
 }
