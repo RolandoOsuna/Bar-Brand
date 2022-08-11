@@ -56,7 +56,7 @@ namespace WTFBarber
                                                    Empleado = Venta.EmpleadoVenta,
                                                    Comision = Venta.TotalComisionVenta,
                                                    Venta = Venta.TotalFinalVenta,
-                                                   Fecha = Venta.FechaVenta
+                                                   Fecha = Venta.FechaVenta 
                                                }).ToList();
                     //LBL VENTAS
                     var lblVenta = (from Venta in db.Ventas

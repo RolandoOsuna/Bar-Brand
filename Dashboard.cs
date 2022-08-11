@@ -197,7 +197,7 @@ namespace WTFBarber
         private void btn_iconoCatalogo_Click(object sender, EventArgs e)
         {
             ActiveButton(sender, Color.Chocolate);
-
+            AbrirFormulario<Catalogo>();
         }
 
         private void btn_iconoInicio_Click(object sender, EventArgs e)

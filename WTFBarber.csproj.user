@@ -7,6 +7,12 @@
     <Compile Update="Cambio-Cobro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Catalogo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Catalogo_Ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Citas.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -73,18 +73,20 @@ namespace WTFBarber
             // txt_nombre
             // 
             this.txt_nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_nombre.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_nombre.Location = new System.Drawing.Point(161, 153);
             this.txt_nombre.Name = "txt_nombre";
-            this.txt_nombre.Size = new System.Drawing.Size(150, 23);
+            this.txt_nombre.Size = new System.Drawing.Size(150, 27);
             this.txt_nombre.TabIndex = 47;
             // 
             // lbl_nombre
             // 
             this.lbl_nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_nombre.AutoSize = true;
+            this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_nombre.Location = new System.Drawing.Point(80, 156);
             this.lbl_nombre.Name = "lbl_nombre";
-            this.lbl_nombre.Size = new System.Drawing.Size(51, 15);
+            this.lbl_nombre.Size = new System.Drawing.Size(68, 18);
             this.lbl_nombre.TabIndex = 48;
             this.lbl_nombre.Text = "Nombre";
             // 
@@ -92,30 +94,33 @@ namespace WTFBarber
             // 
             this.lbl_telefono.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_telefono.AutoSize = true;
+            this.lbl_telefono.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_telefono.Location = new System.Drawing.Point(80, 207);
             this.lbl_telefono.Name = "lbl_telefono";
-            this.lbl_telefono.Size = new System.Drawing.Size(52, 15);
+            this.lbl_telefono.Size = new System.Drawing.Size(71, 18);
             this.lbl_telefono.TabIndex = 52;
             this.lbl_telefono.Text = "Teléfono";
             // 
             // txt_telefono
             // 
             this.txt_telefono.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_telefono.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_telefono.Location = new System.Drawing.Point(161, 204);
             this.txt_telefono.Name = "txt_telefono";
-            this.txt_telefono.Size = new System.Drawing.Size(150, 23);
+            this.txt_telefono.Size = new System.Drawing.Size(150, 27);
             this.txt_telefono.TabIndex = 51;
             this.txt_telefono.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_telefono_KeyPress);
             // 
             // dtp_cita
             // 
             this.dtp_cita.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dtp_cita.CalendarFont = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.dtp_cita.CustomFormat = "dd/MM/yyyy HH:MM";
             this.dtp_cita.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dtp_cita.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.dtp_cita.Location = new System.Drawing.Point(81, 252);
             this.dtp_cita.Name = "dtp_cita";
-            this.dtp_cita.Size = new System.Drawing.Size(132, 23);
+            this.dtp_cita.Size = new System.Drawing.Size(126, 23);
             this.dtp_cita.TabIndex = 53;
             // 
             // dgv_Citas
@@ -202,12 +207,12 @@ namespace WTFBarber
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(800, 544);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.dgv_Citas);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btn_Limpiar);
             this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Agregar);
-            this.Controls.Add(this.dgv_Citas);
             this.Controls.Add(this.dtp_cita);
             this.Controls.Add(this.lbl_telefono);
             this.Controls.Add(this.txt_telefono);

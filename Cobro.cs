@@ -11,11 +11,12 @@ namespace WTFBarber
 {
     public partial class Cobro : Form
     {
-        int Precio, numeroVenta;
-        double Comision;
-        int ComisionVenta = 0;
-        string fecha;
+        public int Precio, numeroVenta;
+        public double Comision;
+        public int ComisionVenta = 0;
+        public string fecha;
         public Image logo { get; set; }
+        Cambio_Cobro CambioCobro = new Cambio_Cobro();
         public Cobro()
         {
             InitializeComponent();
@@ -45,6 +46,7 @@ namespace WTFBarber
                     wtfbarberContext.Venta venta = new wtfbarberContext.Venta()
                     {
                         EmpleadoVenta = cmb_Empleado.SelectedItem.ToString(),
+                     
                         ProductoVenta = cmb_Producto.SelectedItem.ToString(),
                         TotalFinalVenta = double.Parse(txt_Precio.Text),
                         ComisionVenta = ComisionVenta,
@@ -55,6 +57,7 @@ namespace WTFBarber
                     db.SaveChanges();
                     limpiarTextbox();
                     mostrarlbl();
+                    //CambioCobro.Show();
                     MessageBox.Show("Venta realizada");
                
 
@@ -139,7 +142,7 @@ namespace WTFBarber
             }
             txt_Precio.Text = Precio.ToString();
         }
-        private void cmb_Empleado_SelectedIndexChanged(object sender, EventArgs e)
+        public void cmb_Empleado_SelectedIndexChanged(object sender, EventArgs e)
         {
             int indice = cmb_Empleado.SelectedIndex;
 
