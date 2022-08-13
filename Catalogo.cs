@@ -13,6 +13,9 @@ namespace WTFBarber
     public partial class Catalogo : Form
     {
         Catalogo_Ventas CatalogoVentas = new Catalogo_Ventas();
+        Catalogo_Gastos CatalogoGastos = new Catalogo_Gastos();
+        Catalogo_Usuarios CatalogoUsuarios = new Catalogo_Usuarios();
+        Catalogo_Productos CatalogoProductos = new Catalogo_Productos();
         public Catalogo()
         {
             InitializeComponent();
@@ -30,6 +33,18 @@ namespace WTFBarber
 
         private void pb_Usuarios_Click(object sender, EventArgs e)
         {
+            CatalogoUsuarios.ShowDialog();
+
+        }
+
+        private void pb_Gastos_Click(object sender, EventArgs e)
+        {
+            CatalogoGastos.ShowDialog();
+        }
+
+        private void pb_Productos_Click(object sender, EventArgs e)
+        {
+            CatalogoProductos.ShowDialog();
 
         }
     }

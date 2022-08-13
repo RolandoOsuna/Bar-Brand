@@ -61,7 +61,7 @@
   <data name="pb_Ventas.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
-        vQAADr0BR/uQrQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGaiSURBVHhe7d0H
+        vAAADrwBlbxySQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAGaiSURBVHhe7d0H
         mBXV3T9wdu/uUpbdBZaFpffee++rFMWOhqpYKdJRsIGKIiJS7NjFaGyJSUSNGkvsiL1FTXvzakyxxRpL
         9Px/v+ufNzf4Rc/Zmbkzc+f7fZ7P8+ZV5+6UU+6dOXNODYZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZh
         GIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZhGIZh
@@ -1407,7 +1407,7 @@
   <data name="pb_Empleados.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAN
-        0gAADdIBb5L+jgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAKP0SURBVHhe7d0F
+        0QAADdEBwivf4wAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAKP0SURBVHhe7d0F
         fFVXtj/wAEFDgBAIFiC4BA2BBJJgwSW4BKe4191b6i3UvaXu1I26t1N3nU5H3vi8kTfvzX+s+7/W7b3M
         4fID9j52j6z9+Xw/M93c3Htk37PWPWdLllJKCCGEEDEDK4UQQggRbbBSCCGEENEGK4UQQggRbbBSCCGE
         ENEGK4UQQggRbbBSCCGEENEGK4UQQggRbbBSCCGEENEGK4UQQggRbbBSCCGEENEGK4UQQggRbbBSCCGE
@@ -2113,7 +2113,7 @@
   <data name="pb_Productos.Image" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
-        DgAACw4BQL7hQQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAIA+SURBVHhe7d0H
+        DQAACw0B7QfALAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAIA+SURBVHhe7d0H
         uBPV1j7wJOcceu+9916lSUd6770pxQqigAUUQRQVxIIgdhEbggWUImDDfu29e7167V57L/u/VuD8Pzjn
         PSc7M5Nkkrzv8/ye5/uuyZ7JJIe1MpnZO8AwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMwDMMw
         DMMwTIJTVkwTW8Vr4mthyHO/ig/EY2KZaC0YhmEYJu4pI1YJLUyoYFHsPSO6C4ZhGIaJS/oIftP3jw0i

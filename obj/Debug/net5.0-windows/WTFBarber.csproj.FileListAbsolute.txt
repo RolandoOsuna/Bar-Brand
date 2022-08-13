@@ -129,3 +129,6 @@ D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Gastos.re
 D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Cambio_Cobro.resources
 D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Catalogo.resources
 D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Catalogo_Ventas.resources
+D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Catalogo_Gastos.resources
+D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Catalogo_Productos.resources
+D:\Proyectos\WTFBarber-PuntodeVenta\obj\Debug\net5.0-windows\WTFBarber.Catalogo_Usuarios.resources

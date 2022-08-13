@@ -85,6 +85,7 @@ namespace WTFBarber
             this.pb_Gastos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_Gastos.TabIndex = 50;
             this.pb_Gastos.TabStop = false;
+            this.pb_Gastos.Click += new System.EventHandler(this.pb_Gastos_Click);
             // 
             // pb_Usuarios
             // 
@@ -122,6 +123,7 @@ namespace WTFBarber
             this.pb_Productos.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pb_Productos.TabIndex = 53;
             this.pb_Productos.TabStop = false;
+            this.pb_Productos.Click += new System.EventHandler(this.pb_Productos_Click);
             // 
             // lbl_Ventas
             // 

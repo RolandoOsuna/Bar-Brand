@@ -42,10 +42,12 @@ namespace WTFBarber
             dtp_CatalogoVentasHasta.Format = DateTimePickerFormat.Custom;
             dtp_CatalogoVentasHasta.CustomFormat = "dd/MM/yyyy";
             dtp_CatalogoVentasHasta.Value = Convert.ToDateTime(mifecha = DateTime.Now.ToString());
+            btn_Modificar.Visible = false;
 
             Ocultartxt();
             MostrarDatos();
         }
+        //CANCELAR VENTA
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("¿Cancelar Venta?", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes)
@@ -244,6 +246,8 @@ namespace WTFBarber
             lbl_Precio.Visible = false;
             lbl_Empleado.Visible = false;
             lbl_Comision.Visible = false;
+            btn_CancelarModificacion.Visible = false;
+            btn_Guardar.Visible = false;
         }
     }
 }
