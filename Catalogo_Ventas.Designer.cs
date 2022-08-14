@@ -55,7 +55,7 @@ namespace WTFBarber
             // 
             this.dgv_CatalogoVentas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgv_CatalogoVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_CatalogoVentas.Location = new System.Drawing.Point(76, 140);
+            this.dgv_CatalogoVentas.Location = new System.Drawing.Point(76, 160);
             this.dgv_CatalogoVentas.MultiSelect = false;
             this.dgv_CatalogoVentas.Name = "dgv_CatalogoVentas";
             this.dgv_CatalogoVentas.ReadOnly = true;
@@ -82,7 +82,7 @@ namespace WTFBarber
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_MostrarDatos.Location = new System.Drawing.Point(63, 92);
+            this.btn_MostrarDatos.Location = new System.Drawing.Point(12, 112);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
             this.btn_MostrarDatos.Size = new System.Drawing.Size(98, 27);
             this.btn_MostrarDatos.TabIndex = 32;
@@ -96,7 +96,7 @@ namespace WTFBarber
             this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Modificar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Modificar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Modificar.Location = new System.Drawing.Point(209, 329);
+            this.btn_Modificar.Location = new System.Drawing.Point(214, 339);
             this.btn_Modificar.Name = "btn_Modificar";
             this.btn_Modificar.Size = new System.Drawing.Size(118, 27);
             this.btn_Modificar.TabIndex = 33;
@@ -110,7 +110,7 @@ namespace WTFBarber
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Cancelar.Location = new System.Drawing.Point(76, 329);
+            this.btn_Cancelar.Location = new System.Drawing.Point(78, 339);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(118, 27);
             this.btn_Cancelar.TabIndex = 34;
@@ -123,7 +123,7 @@ namespace WTFBarber
             this.dtp_CatalogoVentasHasta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_CatalogoVentasHasta.CustomFormat = "dd/MM/yyyy HH:MM";
             this.dtp_CatalogoVentasHasta.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dtp_CatalogoVentasHasta.Location = new System.Drawing.Point(284, 54);
+            this.dtp_CatalogoVentasHasta.Location = new System.Drawing.Point(76, 83);
             this.dtp_CatalogoVentasHasta.Name = "dtp_CatalogoVentasHasta";
             this.dtp_CatalogoVentasHasta.Size = new System.Drawing.Size(120, 23);
             this.dtp_CatalogoVentasHasta.TabIndex = 35;
@@ -135,7 +135,7 @@ namespace WTFBarber
             this.lbl_Hasta.AutoSize = true;
             this.lbl_Hasta.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Hasta.Location = new System.Drawing.Point(225, 56);
+            this.lbl_Hasta.Location = new System.Drawing.Point(17, 85);
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 37;
@@ -162,7 +162,7 @@ namespace WTFBarber
             this.txt_Comision.Enabled = false;
             this.txt_Comision.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Comision.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Comision.Location = new System.Drawing.Point(445, 183);
+            this.txt_Comision.Location = new System.Drawing.Point(435, 125);
             this.txt_Comision.Name = "txt_Comision";
             this.txt_Comision.PlaceholderText = "%";
             this.txt_Comision.Size = new System.Drawing.Size(150, 24);
@@ -181,7 +181,7 @@ namespace WTFBarber
             "Eduardo",
             "Jazmin",
             "Hadamari"});
-            this.cmb_Empleado.Location = new System.Drawing.Point(284, 180);
+            this.cmb_Empleado.Location = new System.Drawing.Point(279, 124);
             this.cmb_Empleado.Name = "cmb_Empleado";
             this.cmb_Empleado.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmb_Empleado.Size = new System.Drawing.Size(150, 25);
@@ -210,7 +210,7 @@ namespace WTFBarber
             "Facial Hidratante",
             "Paquete Premium",
             "Paquete Elite"});
-            this.cmb_Producto.Location = new System.Drawing.Point(284, 126);
+            this.cmb_Producto.Location = new System.Drawing.Point(279, 77);
             this.cmb_Producto.Name = "cmb_Producto";
             this.cmb_Producto.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.cmb_Producto.Size = new System.Drawing.Size(150, 25);
@@ -223,7 +223,7 @@ namespace WTFBarber
             this.lbl_Comision.AutoSize = true;
             this.lbl_Comision.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Comision.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Comision.Location = new System.Drawing.Point(445, 157);
+            this.lbl_Comision.Location = new System.Drawing.Point(435, 103);
             this.lbl_Comision.Name = "lbl_Comision";
             this.lbl_Comision.Size = new System.Drawing.Size(81, 19);
             this.lbl_Comision.TabIndex = 42;
@@ -235,7 +235,7 @@ namespace WTFBarber
             this.lbl_Empleado.AutoSize = true;
             this.lbl_Empleado.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Empleado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Empleado.Location = new System.Drawing.Point(284, 154);
+            this.lbl_Empleado.Location = new System.Drawing.Point(279, 105);
             this.lbl_Empleado.Name = "lbl_Empleado";
             this.lbl_Empleado.Size = new System.Drawing.Size(90, 19);
             this.lbl_Empleado.TabIndex = 41;
@@ -247,7 +247,7 @@ namespace WTFBarber
             this.lbl_Precio.AutoSize = true;
             this.lbl_Precio.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Precio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Precio.Location = new System.Drawing.Point(445, 100);
+            this.lbl_Precio.Location = new System.Drawing.Point(440, 55);
             this.lbl_Precio.Name = "lbl_Precio";
             this.lbl_Precio.Size = new System.Drawing.Size(57, 19);
             this.lbl_Precio.TabIndex = 40;
@@ -262,7 +262,7 @@ namespace WTFBarber
             this.txt_Precio.Enabled = false;
             this.txt_Precio.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Precio.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Precio.Location = new System.Drawing.Point(445, 126);
+            this.txt_Precio.Location = new System.Drawing.Point(435, 77);
             this.txt_Precio.Name = "txt_Precio";
             this.txt_Precio.PlaceholderText = "$";
             this.txt_Precio.ShortcutsEnabled = false;
@@ -275,7 +275,7 @@ namespace WTFBarber
             this.lbl_Producto.AutoSize = true;
             this.lbl_Producto.BackColor = System.Drawing.SystemColors.ControlDark;
             this.lbl_Producto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Producto.Location = new System.Drawing.Point(284, 100);
+            this.lbl_Producto.Location = new System.Drawing.Point(279, 55);
             this.lbl_Producto.Name = "lbl_Producto";
             this.lbl_Producto.Size = new System.Drawing.Size(78, 19);
             this.lbl_Producto.TabIndex = 38;
@@ -287,7 +287,7 @@ namespace WTFBarber
             this.btn_CancelarModificacion.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_CancelarModificacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_CancelarModificacion.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_CancelarModificacion.Location = new System.Drawing.Point(601, 119);
+            this.btn_CancelarModificacion.Location = new System.Drawing.Point(596, 74);
             this.btn_CancelarModificacion.Name = "btn_CancelarModificacion";
             this.btn_CancelarModificacion.Size = new System.Drawing.Size(106, 44);
             this.btn_CancelarModificacion.TabIndex = 46;
@@ -301,7 +301,7 @@ namespace WTFBarber
             this.btn_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Guardar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Guardar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Guardar.Location = new System.Drawing.Point(618, 169);
+            this.btn_Guardar.Location = new System.Drawing.Point(613, 124);
             this.btn_Guardar.Name = "btn_Guardar";
             this.btn_Guardar.Size = new System.Drawing.Size(73, 30);
             this.btn_Guardar.TabIndex = 47;

@@ -46,7 +46,6 @@ namespace WTFBarber
                     wtfbarberContext.Venta venta = new wtfbarberContext.Venta()
                     {
                         EmpleadoVenta = cmb_Empleado.SelectedItem.ToString(),
-                     
                         ProductoVenta = cmb_Producto.SelectedItem.ToString(),
                         TotalFinalVenta = double.Parse(txt_Precio.Text),
                         ComisionVenta = ComisionVenta,
