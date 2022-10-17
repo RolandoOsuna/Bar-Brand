@@ -59,8 +59,12 @@ namespace WTFBarber
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(13, 88);
+=======
+            this.lbl_Hasta.Location = new System.Drawing.Point(248, 53);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Hasta.Location = new System.Drawing.Point(248, 53);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -76,8 +80,12 @@ namespace WTFBarber
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Desde.Location = new System.Drawing.Point(8, 56);
+=======
+            this.lbl_Desde.Location = new System.Drawing.Point(45, 53);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Desde.Location = new System.Drawing.Point(45, 53);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -150,6 +158,7 @@ namespace WTFBarber
             this.dgv_CatalogoUsuarios.Size = new System.Drawing.Size(551, 173);
             this.dgv_CatalogoUsuarios.TabIndex = 57;
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // lbl_Nombre
             // 
@@ -268,6 +277,8 @@ namespace WTFBarber
             this.btn_CancelarModificacion.UseVisualStyleBackColor = true;
             this.btn_CancelarModificacion.Click += new System.EventHandler(this.btn_CancelarModificacion_Click);
             // 
+=======
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             // Catalogo_Usuarios

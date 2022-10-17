@@ -95,6 +95,7 @@ namespace WTFBarber
             }
         }
 <<<<<<< HEAD
+<<<<<<< HEAD
         //BTN CANCELAR MODIFICACION
         private void btn_CancelarModificacion_Click(object sender, EventArgs e)
         {
@@ -217,6 +218,8 @@ namespace WTFBarber
         {
 
         }
+=======
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
     }

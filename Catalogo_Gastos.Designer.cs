@@ -51,6 +51,9 @@ namespace WTFBarber
 =======
             this.lbl_Catalogo.Font = new System.Drawing.Font("Perpetua Titling MT", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Catalogo.Location = new System.Drawing.Point(127, 9);
+<<<<<<< HEAD
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
+=======
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Catalogo.Name = "lbl_Catalogo";
             this.lbl_Catalogo.Size = new System.Drawing.Size(355, 41);
@@ -64,8 +67,12 @@ namespace WTFBarber
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(10, 100);
+=======
+            this.lbl_Hasta.Location = new System.Drawing.Point(218, 58);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Hasta.Location = new System.Drawing.Point(218, 58);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -82,8 +89,12 @@ namespace WTFBarber
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Desde.Location = new System.Drawing.Point(10, 73);
+=======
+            this.lbl_Desde.Location = new System.Drawing.Point(22, 58);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Desde.Location = new System.Drawing.Point(22, 58);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -157,6 +168,7 @@ namespace WTFBarber
             this.dgv_CatalogoGastos.Size = new System.Drawing.Size(551, 173);
             this.dgv_CatalogoGastos.TabIndex = 50;
             // 
+<<<<<<< HEAD
 <<<<<<< HEAD
             // btn_CancelarModificacion
             // 
@@ -262,10 +274,13 @@ namespace WTFBarber
             // 
 =======
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
+=======
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             // Catalogo_Gastos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
 <<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
             this.ClientSize = new System.Drawing.Size(763, 412);
@@ -278,6 +293,10 @@ namespace WTFBarber
             this.Controls.Add(this.lbl_Descripcion);
             this.Controls.Add(this.lbl_Cantidad);
             this.Controls.Add(this.lbl_Nombre);
+=======
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(714, 374);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.BackColor = System.Drawing.SystemColors.ControlDark;
             this.ClientSize = new System.Drawing.Size(714, 374);

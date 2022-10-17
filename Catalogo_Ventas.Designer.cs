@@ -137,8 +137,12 @@ namespace WTFBarber
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(17, 85);
+=======
+            this.lbl_Hasta.Location = new System.Drawing.Point(225, 56);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Hasta.Location = new System.Drawing.Point(225, 56);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -169,8 +173,13 @@ namespace WTFBarber
             this.txt_Comision.Enabled = false;
             this.txt_Comision.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txt_Comision.ForeColor = System.Drawing.Color.Black;
             this.txt_Comision.Location = new System.Drawing.Point(435, 125);
+=======
+            this.txt_Comision.ForeColor = System.Drawing.Color.Silver;
+            this.txt_Comision.Location = new System.Drawing.Point(445, 183);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.txt_Comision.ForeColor = System.Drawing.Color.Silver;
             this.txt_Comision.Location = new System.Drawing.Point(445, 183);
@@ -236,8 +245,12 @@ namespace WTFBarber
             this.lbl_Comision.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Comision.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Comision.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Comision.Location = new System.Drawing.Point(435, 103);
+=======
+            this.lbl_Comision.Location = new System.Drawing.Point(445, 157);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Comision.Location = new System.Drawing.Point(445, 157);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -253,8 +266,12 @@ namespace WTFBarber
             this.lbl_Empleado.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Empleado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Empleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Empleado.Location = new System.Drawing.Point(279, 105);
+=======
+            this.lbl_Empleado.Location = new System.Drawing.Point(284, 154);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Empleado.Location = new System.Drawing.Point(284, 154);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -270,8 +287,12 @@ namespace WTFBarber
             this.lbl_Precio.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Precio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Precio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Precio.Location = new System.Drawing.Point(440, 55);
+=======
+            this.lbl_Precio.Location = new System.Drawing.Point(445, 100);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Precio.Location = new System.Drawing.Point(445, 100);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
@@ -289,8 +310,13 @@ namespace WTFBarber
             this.txt_Precio.Enabled = false;
             this.txt_Precio.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.txt_Precio.ForeColor = System.Drawing.Color.Black;
             this.txt_Precio.Location = new System.Drawing.Point(435, 77);
+=======
+            this.txt_Precio.ForeColor = System.Drawing.Color.Silver;
+            this.txt_Precio.Location = new System.Drawing.Point(445, 126);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.txt_Precio.ForeColor = System.Drawing.Color.Silver;
             this.txt_Precio.Location = new System.Drawing.Point(445, 126);
@@ -308,8 +334,12 @@ namespace WTFBarber
             this.lbl_Producto.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Producto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 <<<<<<< HEAD
+<<<<<<< HEAD
             this.lbl_Producto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Producto.Location = new System.Drawing.Point(279, 55);
+=======
+            this.lbl_Producto.Location = new System.Drawing.Point(284, 100);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
 =======
             this.lbl_Producto.Location = new System.Drawing.Point(284, 100);
 >>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
