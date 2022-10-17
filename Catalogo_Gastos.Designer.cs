@@ -37,15 +37,6 @@ namespace WTFBarber
             this.btn_MostrarDatos = new System.Windows.Forms.Button();
             this.dtp_CatalogoGastosDesde = new System.Windows.Forms.DateTimePicker();
             this.dgv_CatalogoGastos = new System.Windows.Forms.DataGridView();
-            this.btn_CancelarModificacion = new System.Windows.Forms.Button();
-            this.btn_Guardar = new System.Windows.Forms.Button();
-            this.txt_Descripcion = new System.Windows.Forms.TextBox();
-            this.txt_Nombre = new System.Windows.Forms.TextBox();
-            this.lbl_Descripcion = new System.Windows.Forms.Label();
-            this.lbl_Cantidad = new System.Windows.Forms.Label();
-            this.lbl_Nombre = new System.Windows.Forms.Label();
-            this.btn_Modificar = new System.Windows.Forms.Button();
-            this.txt_Cantidad = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_CatalogoGastos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,9 +44,14 @@ namespace WTFBarber
             // 
             this.lbl_Catalogo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Catalogo.AutoSize = true;
+<<<<<<< HEAD
             this.lbl_Catalogo.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Catalogo.ForeColor = System.Drawing.Color.White;
             this.lbl_Catalogo.Location = new System.Drawing.Point(214, 9);
+=======
+            this.lbl_Catalogo.Font = new System.Drawing.Font("Perpetua Titling MT", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Catalogo.Location = new System.Drawing.Point(127, 9);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Catalogo.Name = "lbl_Catalogo";
             this.lbl_Catalogo.Size = new System.Drawing.Size(355, 41);
             this.lbl_Catalogo.TabIndex = 49;
@@ -67,8 +63,12 @@ namespace WTFBarber
             this.lbl_Hasta.AutoSize = true;
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(10, 100);
+=======
+            this.lbl_Hasta.Location = new System.Drawing.Point(218, 58);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 56;
@@ -81,8 +81,12 @@ namespace WTFBarber
             this.lbl_Desde.AutoSize = true;
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Desde.Location = new System.Drawing.Point(10, 73);
+=======
+            this.lbl_Desde.Location = new System.Drawing.Point(22, 58);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Desde.Name = "lbl_Desde";
             this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
             this.lbl_Desde.TabIndex = 55;
@@ -94,7 +98,7 @@ namespace WTFBarber
             this.dtp_CatalogoGastosHasta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_CatalogoGastosHasta.CustomFormat = "dd/MM/yyyy HH:MM";
             this.dtp_CatalogoGastosHasta.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dtp_CatalogoGastosHasta.Location = new System.Drawing.Point(69, 98);
+            this.dtp_CatalogoGastosHasta.Location = new System.Drawing.Point(277, 56);
             this.dtp_CatalogoGastosHasta.Name = "dtp_CatalogoGastosHasta";
             this.dtp_CatalogoGastosHasta.Size = new System.Drawing.Size(120, 23);
             this.dtp_CatalogoGastosHasta.TabIndex = 54;
@@ -106,7 +110,7 @@ namespace WTFBarber
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Cancelar.Location = new System.Drawing.Point(59, 380);
+            this.btn_Cancelar.Location = new System.Drawing.Point(43, 330);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(118, 27);
             this.btn_Cancelar.TabIndex = 53;
@@ -120,7 +124,7 @@ namespace WTFBarber
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_MostrarDatos.Location = new System.Drawing.Point(10, 131);
+            this.btn_MostrarDatos.Location = new System.Drawing.Point(30, 93);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
             this.btn_MostrarDatos.Size = new System.Drawing.Size(98, 27);
             this.btn_MostrarDatos.TabIndex = 52;
@@ -133,7 +137,7 @@ namespace WTFBarber
             this.dtp_CatalogoGastosDesde.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_CatalogoGastosDesde.CustomFormat = "dd/MM/yyyy HH:MM";
             this.dtp_CatalogoGastosDesde.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dtp_CatalogoGastosDesde.Location = new System.Drawing.Point(69, 69);
+            this.dtp_CatalogoGastosDesde.Location = new System.Drawing.Point(81, 54);
             this.dtp_CatalogoGastosDesde.Name = "dtp_CatalogoGastosDesde";
             this.dtp_CatalogoGastosDesde.Size = new System.Drawing.Size(120, 23);
             this.dtp_CatalogoGastosDesde.TabIndex = 51;
@@ -144,15 +148,16 @@ namespace WTFBarber
             this.dgv_CatalogoGastos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgv_CatalogoGastos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.dgv_CatalogoGastos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_CatalogoGastos.Location = new System.Drawing.Point(59, 164);
+            this.dgv_CatalogoGastos.Location = new System.Drawing.Point(43, 141);
             this.dgv_CatalogoGastos.MultiSelect = false;
             this.dgv_CatalogoGastos.Name = "dgv_CatalogoGastos";
             this.dgv_CatalogoGastos.ReadOnly = true;
             this.dgv_CatalogoGastos.RowTemplate.Height = 25;
             this.dgv_CatalogoGastos.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_CatalogoGastos.Size = new System.Drawing.Size(551, 210);
+            this.dgv_CatalogoGastos.Size = new System.Drawing.Size(551, 173);
             this.dgv_CatalogoGastos.TabIndex = 50;
             // 
+<<<<<<< HEAD
             // btn_CancelarModificacion
             // 
             this.btn_CancelarModificacion.Anchor = System.Windows.Forms.AnchorStyles.None;
@@ -255,10 +260,13 @@ namespace WTFBarber
             this.txt_Cantidad.TextChanged += new System.EventHandler(this.txt_Cantidad_TextChanged);
             this.txt_Cantidad.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txt_Cantidad_KeyPress);
             // 
+=======
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             // Catalogo_Gastos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< HEAD
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
             this.ClientSize = new System.Drawing.Size(763, 412);
             this.Controls.Add(this.txt_Cantidad);
@@ -270,6 +278,10 @@ namespace WTFBarber
             this.Controls.Add(this.lbl_Descripcion);
             this.Controls.Add(this.lbl_Cantidad);
             this.Controls.Add(this.lbl_Nombre);
+=======
+            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.ClientSize = new System.Drawing.Size(714, 374);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.Controls.Add(this.lbl_Hasta);
             this.Controls.Add(this.lbl_Desde);
             this.Controls.Add(this.dtp_CatalogoGastosHasta);
@@ -299,14 +311,5 @@ namespace WTFBarber
         private System.Windows.Forms.Button btn_MostrarDatos;
         private System.Windows.Forms.DateTimePicker dtp_CatalogoGastosDesde;
         private System.Windows.Forms.DataGridView dgv_CatalogoGastos;
-        private System.Windows.Forms.Button btn_CancelarModificacion;
-        private System.Windows.Forms.Button btn_Guardar;
-        private System.Windows.Forms.TextBox txt_Descripcion;
-        private System.Windows.Forms.TextBox txt_Nombre;
-        private System.Windows.Forms.Label lbl_Descripcion;
-        private System.Windows.Forms.Label lbl_Cantidad;
-        private System.Windows.Forms.Label lbl_Nombre;
-        private System.Windows.Forms.Button btn_Modificar;
-        private System.Windows.Forms.TextBox txt_Cantidad;
     }
 }

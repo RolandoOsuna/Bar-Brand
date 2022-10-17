@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,7 +36,7 @@ namespace WTFBarber
             dtp_CatalogoGastosHasta.Value = Convert.ToDateTime(mifecha = DateTime.Now.ToString());
             //btn_Modificar.Visible = false;
 
-            Ocultartxt();
+            //Ocultartxt();
             MostrarDatos();
         }
 
@@ -77,20 +76,6 @@ namespace WTFBarber
                 return null;
             }
         }
-        
-        //BTN MODIFICAR
-        private void btn_Modificar_Click(object sender, EventArgs e)
-        {
-            int? id = GetId();
-            if (id != null)
-            {
-                Mostrartxt();
-                CargarDatos();
-                btn_Guardar.Visible = true;
-                btn_CancelarModificacion.Visible = true;
-
-            }
-        }
         //BTN CANCELAR
         private void btn_Cancelar_Click(object sender, EventArgs e)
         {
@@ -109,6 +94,7 @@ namespace WTFBarber
                 }
             }
         }
+<<<<<<< HEAD
         //BTN CANCELAR MODIFICACION
         private void btn_CancelarModificacion_Click(object sender, EventArgs e)
         {
@@ -231,5 +217,7 @@ namespace WTFBarber
         {
 
         }
+=======
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
     }
 }

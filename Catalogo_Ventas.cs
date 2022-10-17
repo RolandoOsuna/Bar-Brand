@@ -42,7 +42,7 @@ namespace WTFBarber
             dtp_CatalogoVentasHasta.Format = DateTimePickerFormat.Custom;
             dtp_CatalogoVentasHasta.CustomFormat = "dd/MM/yyyy";
             dtp_CatalogoVentasHasta.Value = Convert.ToDateTime(mifecha = DateTime.Now.ToString());
-            //btn_Modificar.Visible = false;
+            btn_Modificar.Visible = false;
 
             Ocultartxt();
             MostrarDatos();
@@ -100,24 +100,15 @@ namespace WTFBarber
                 {
                     if(id == null)
                         venta = new Venta();
-                    venta.IdVentas = id.Value;
-
                     venta.EmpleadoVenta = cmb_Empleado.SelectedItem.ToString();
                     venta.ProductoVenta = cmb_Producto.SelectedItem.ToString();
                     venta.TotalFinalVenta = double.Parse(txt_Precio.Text);
-                    venta.ComisionVenta = ComisionVenta;
-                    venta.TotalComisionVenta = double.Parse(txt_Comision.Text);
-                    venta.FechaVenta = DateTime.Now;
-                    
-                    db.Ventas.Attach(venta);
+                    venta.TotalComisionVenta = double.Parse(txt_Comision.Text);    
                     db.Entry(venta).State = EntityState.Modified;
                     db.SaveChanges();
                     MessageBox.Show("Modificado");
-                    MostrarDatos();
-
                 }
-            }
-            catch(Exception ex)
+            }catch(Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
@@ -244,12 +235,7 @@ namespace WTFBarber
             lbl_Empleado.Visible = true;
             lbl_Comision.Visible = true;
             btn_CancelarModificacion.Visible = true;
-            btn_Guardar.Visible = true;
-
         }
-
-        
-
         public void Ocultartxt()
         {
             cmb_Empleado.Visible = false;

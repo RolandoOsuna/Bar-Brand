@@ -29,7 +29,7 @@ namespace WTFBarber
             //btn_Modificar.Visible = false;
 
             //Ocultartxt();
-            //MostrarDatos();
+            MostrarDatos();
         }
     }
 }

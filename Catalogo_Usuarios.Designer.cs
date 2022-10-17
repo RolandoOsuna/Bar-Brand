@@ -37,16 +37,6 @@ namespace WTFBarber
             this.btn_MostrarDatos = new System.Windows.Forms.Button();
             this.dtp_CatalogoDesde = new System.Windows.Forms.DateTimePicker();
             this.dgv_CatalogoUsuarios = new System.Windows.Forms.DataGridView();
-            this.lbl_Nombre = new System.Windows.Forms.Label();
-            this.lbl_Privilegio = new System.Windows.Forms.Label();
-            this.lbl_Contra = new System.Windows.Forms.Label();
-            this.txt_Nombre = new System.Windows.Forms.TextBox();
-            this.txt_Contra = new System.Windows.Forms.TextBox();
-            this.cmb_Privilegio = new System.Windows.Forms.ComboBox();
-            this.btn_Agregar = new System.Windows.Forms.Button();
-            this.btn_Modificar = new System.Windows.Forms.Button();
-            this.btn_Guardar = new System.Windows.Forms.Button();
-            this.btn_CancelarModificacion = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_CatalogoUsuarios)).BeginInit();
             this.SuspendLayout();
             // 
@@ -68,8 +58,12 @@ namespace WTFBarber
             this.lbl_Hasta.AutoSize = true;
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(13, 88);
+=======
+            this.lbl_Hasta.Location = new System.Drawing.Point(248, 53);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 63;
@@ -81,8 +75,12 @@ namespace WTFBarber
             this.lbl_Desde.AutoSize = true;
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+<<<<<<< HEAD
             this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Desde.Location = new System.Drawing.Point(8, 56);
+=======
+            this.lbl_Desde.Location = new System.Drawing.Point(45, 53);
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Desde.Name = "lbl_Desde";
             this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
             this.lbl_Desde.TabIndex = 62;
@@ -93,7 +91,7 @@ namespace WTFBarber
             this.dtp_CatalogoHasta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_CatalogoHasta.CustomFormat = "dd/MM/yyyy HH:MM";
             this.dtp_CatalogoHasta.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dtp_CatalogoHasta.Location = new System.Drawing.Point(71, 86);
+            this.dtp_CatalogoHasta.Location = new System.Drawing.Point(306, 51);
             this.dtp_CatalogoHasta.Name = "dtp_CatalogoHasta";
             this.dtp_CatalogoHasta.Size = new System.Drawing.Size(120, 23);
             this.dtp_CatalogoHasta.TabIndex = 61;
@@ -105,7 +103,7 @@ namespace WTFBarber
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Cancelar.Location = new System.Drawing.Point(289, 339);
+            this.btn_Cancelar.Location = new System.Drawing.Point(92, 312);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(118, 27);
             this.btn_Cancelar.TabIndex = 60;
@@ -119,7 +117,7 @@ namespace WTFBarber
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_MostrarDatos.Location = new System.Drawing.Point(37, 117);
+            this.btn_MostrarDatos.Location = new System.Drawing.Point(53, 88);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
             this.btn_MostrarDatos.Size = new System.Drawing.Size(98, 27);
             this.btn_MostrarDatos.TabIndex = 59;
@@ -132,7 +130,7 @@ namespace WTFBarber
             this.dtp_CatalogoDesde.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dtp_CatalogoDesde.CustomFormat = "dd/MM/yyyy HH:MM";
             this.dtp_CatalogoDesde.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.dtp_CatalogoDesde.Location = new System.Drawing.Point(71, 54);
+            this.dtp_CatalogoDesde.Location = new System.Drawing.Point(108, 51);
             this.dtp_CatalogoDesde.Name = "dtp_CatalogoDesde";
             this.dtp_CatalogoDesde.Size = new System.Drawing.Size(120, 23);
             this.dtp_CatalogoDesde.TabIndex = 58;
@@ -143,15 +141,16 @@ namespace WTFBarber
             this.dgv_CatalogoUsuarios.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.dgv_CatalogoUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.dgv_CatalogoUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_CatalogoUsuarios.Location = new System.Drawing.Point(37, 160);
+            this.dgv_CatalogoUsuarios.Location = new System.Drawing.Point(92, 123);
             this.dgv_CatalogoUsuarios.MultiSelect = false;
             this.dgv_CatalogoUsuarios.Name = "dgv_CatalogoUsuarios";
             this.dgv_CatalogoUsuarios.ReadOnly = true;
             this.dgv_CatalogoUsuarios.RowTemplate.Height = 25;
             this.dgv_CatalogoUsuarios.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgv_CatalogoUsuarios.Size = new System.Drawing.Size(612, 173);
+            this.dgv_CatalogoUsuarios.Size = new System.Drawing.Size(551, 173);
             this.dgv_CatalogoUsuarios.TabIndex = 57;
             // 
+<<<<<<< HEAD
             // lbl_Nombre
             // 
             this.lbl_Nombre.AutoSize = true;
@@ -269,22 +268,14 @@ namespace WTFBarber
             this.btn_CancelarModificacion.UseVisualStyleBackColor = true;
             this.btn_CancelarModificacion.Click += new System.EventHandler(this.btn_CancelarModificacion_Click);
             // 
+=======
+>>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             // Catalogo_Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
             this.ClientSize = new System.Drawing.Size(714, 374);
-            this.Controls.Add(this.btn_CancelarModificacion);
-            this.Controls.Add(this.btn_Guardar);
-            this.Controls.Add(this.btn_Modificar);
-            this.Controls.Add(this.btn_Agregar);
-            this.Controls.Add(this.cmb_Privilegio);
-            this.Controls.Add(this.txt_Contra);
-            this.Controls.Add(this.txt_Nombre);
-            this.Controls.Add(this.lbl_Contra);
-            this.Controls.Add(this.lbl_Privilegio);
-            this.Controls.Add(this.lbl_Nombre);
             this.Controls.Add(this.lbl_Hasta);
             this.Controls.Add(this.lbl_Desde);
             this.Controls.Add(this.dtp_CatalogoHasta);
@@ -314,15 +305,5 @@ namespace WTFBarber
         private System.Windows.Forms.Button btn_MostrarDatos;
         private System.Windows.Forms.DateTimePicker dtp_CatalogoDesde;
         private System.Windows.Forms.DataGridView dgv_CatalogoUsuarios;
-        private System.Windows.Forms.Label lbl_Nombre;
-        private System.Windows.Forms.Label lbl_Privilegio;
-        private System.Windows.Forms.Label lbl_Contra;
-        private System.Windows.Forms.TextBox txt_Nombre;
-        private System.Windows.Forms.TextBox txt_Contra;
-        private System.Windows.Forms.ComboBox cmb_Privilegio;
-        private System.Windows.Forms.Button btn_Agregar;
-        private System.Windows.Forms.Button btn_Modificar;
-        private System.Windows.Forms.Button btn_Guardar;
-        private System.Windows.Forms.Button btn_CancelarModificacion;
     }
 }
