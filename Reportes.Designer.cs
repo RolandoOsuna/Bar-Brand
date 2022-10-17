@@ -52,10 +52,10 @@ namespace WTFBarber
             // cmb_TipoReporte
             // 
             this.cmb_TipoReporte.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmb_TipoReporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.cmb_TipoReporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.cmb_TipoReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmb_TipoReporte.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cmb_TipoReporte.ForeColor = System.Drawing.Color.Silver;
+            this.cmb_TipoReporte.ForeColor = System.Drawing.Color.Black;
             this.cmb_TipoReporte.FormattingEnabled = true;
             this.cmb_TipoReporte.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cmb_TipoReporte.Items.AddRange(new object[] {
@@ -76,20 +76,21 @@ namespace WTFBarber
             // 
             this.lbl_Reportes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Reportes.AutoSize = true;
-            this.lbl_Reportes.Font = new System.Drawing.Font("Perpetua Titling MT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Reportes.Location = new System.Drawing.Point(257, 20);
+            this.lbl_Reportes.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Reportes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.lbl_Reportes.Location = new System.Drawing.Point(294, 14);
             this.lbl_Reportes.Name = "lbl_Reportes";
-            this.lbl_Reportes.Size = new System.Drawing.Size(284, 58);
+            this.lbl_Reportes.Size = new System.Drawing.Size(227, 56);
             this.lbl_Reportes.TabIndex = 23;
             this.lbl_Reportes.Text = "Reportes";
             // 
             // btn_Cancelar
             // 
             this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Cancelar.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.btn_Cancelar.BackColor = System.Drawing.Color.Black;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Cancelar.ForeColor = System.Drawing.Color.Red;
+            this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.ForeColor = System.Drawing.Color.White;
             this.btn_Cancelar.Location = new System.Drawing.Point(23, 473);
             this.btn_Cancelar.Name = "btn_Cancelar";
             this.btn_Cancelar.Size = new System.Drawing.Size(145, 35);
@@ -102,11 +103,11 @@ namespace WTFBarber
             // 
             this.lbl_Desde.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Desde.AutoSize = true;
-            this.lbl_Desde.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_Desde.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Desde.Location = new System.Drawing.Point(326, 110);
             this.lbl_Desde.Name = "lbl_Desde";
-            this.lbl_Desde.Size = new System.Drawing.Size(56, 19);
+            this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
             this.lbl_Desde.TabIndex = 18;
             this.lbl_Desde.Text = "Desde";
             // 
@@ -114,11 +115,11 @@ namespace WTFBarber
             // 
             this.lbl_TipoReporte.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_TipoReporte.AutoSize = true;
-            this.lbl_TipoReporte.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_TipoReporte.Font = new System.Drawing.Font("Rockwell", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_TipoReporte.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_TipoReporte.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_TipoReporte.Location = new System.Drawing.Point(61, 110);
             this.lbl_TipoReporte.Name = "lbl_TipoReporte";
-            this.lbl_TipoReporte.Size = new System.Drawing.Size(141, 20);
+            this.lbl_TipoReporte.Size = new System.Drawing.Size(129, 19);
             this.lbl_TipoReporte.TabIndex = 16;
             this.lbl_TipoReporte.Text = "Tipo de Reporte";
             // 
@@ -136,6 +137,7 @@ namespace WTFBarber
             // dgv_Reportes
             // 
             this.dgv_Reportes.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgv_Reportes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.dgv_Reportes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Reportes.Location = new System.Drawing.Point(137, 204);
             this.dgv_Reportes.Name = "dgv_Reportes";
@@ -158,26 +160,27 @@ namespace WTFBarber
             // 
             this.lbl_Hasta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Hasta.AutoSize = true;
-            this.lbl_Hasta.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_Hasta.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Hasta.Location = new System.Drawing.Point(326, 157);
             this.lbl_Hasta.Name = "lbl_Hasta";
-            this.lbl_Hasta.Size = new System.Drawing.Size(50, 19);
+            this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 29;
             this.lbl_Hasta.Text = "Hasta";
             // 
             // btn_MostrarDatos
             // 
             this.btn_MostrarDatos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_MostrarDatos.BackColor = System.Drawing.Color.Black;
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_MostrarDatos.Font = new System.Drawing.Font("Perpetua", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_MostrarDatos.ForeColor = System.Drawing.Color.White;
             this.btn_MostrarDatos.Location = new System.Drawing.Point(496, 129);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
             this.btn_MostrarDatos.Size = new System.Drawing.Size(118, 27);
             this.btn_MostrarDatos.TabIndex = 31;
             this.btn_MostrarDatos.Text = "Mostrar Datos";
-            this.btn_MostrarDatos.UseVisualStyleBackColor = true;
+            this.btn_MostrarDatos.UseVisualStyleBackColor = false;
             this.btn_MostrarDatos.Click += new System.EventHandler(this.btn_MostrarDatos_Click);
             // 
             // lbl
@@ -211,26 +214,28 @@ namespace WTFBarber
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 36;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // btn_Generar
             // 
             this.btn_Generar.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.btn_Generar.BackColor = System.Drawing.Color.Black;
             this.btn_Generar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Generar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Generar.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.btn_Generar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Generar.ForeColor = System.Drawing.Color.White;
             this.btn_Generar.Location = new System.Drawing.Point(249, 473);
             this.btn_Generar.Name = "btn_Generar";
             this.btn_Generar.Size = new System.Drawing.Size(145, 35);
             this.btn_Generar.TabIndex = 21;
             this.btn_Generar.Text = "Generar";
-            this.btn_Generar.UseVisualStyleBackColor = true;
+            this.btn_Generar.UseVisualStyleBackColor = false;
             this.btn_Generar.Click += new System.EventHandler(this.btn_Generar_Click);
             // 
             // Reportes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 578);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

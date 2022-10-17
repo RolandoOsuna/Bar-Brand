@@ -29,10 +29,10 @@ namespace WTFBarber
 
         private void txt_Usuario_Enter(object sender, EventArgs e)
         {
-            if (txt_Usuario.Text == "USUARIO")
+            if (txt_Usuario.Text == "Usuario")
             {
                 txt_Usuario.Text = "";
-                txt_Usuario.ForeColor = Color.LightGray; 
+                txt_Usuario.ForeColor = Color.Black; 
             }
             
         }
@@ -40,15 +40,15 @@ namespace WTFBarber
         {
             if (txt_Usuario.Text == "")
             {
-                txt_Usuario.Text = "USUARIO";
-                txt_Usuario.ForeColor = Color.DimGray;
+                txt_Usuario.Text = "Usuario";
+                txt_Usuario.ForeColor = Color.Black;
 
             }
         }
 
         private void txt_Contra_Enter(object sender, EventArgs e)
         {
-            if (txt_Contra.Text == "CONTRASEÑA")
+            if (txt_Contra.Text == "Contraseña")
             {
                 txt_Contra.Text = "";
                 txt_Contra.ForeColor = Color.LightGray;
@@ -60,7 +60,7 @@ namespace WTFBarber
         {
             if (txt_Contra.Text == "")
             {       
-                txt_Contra.Text = "CONTRASEÑA";
+                txt_Contra.Text = "Contraseña";
                 txt_Contra.ForeColor = Color.DimGray;
                 txt_Contra.UseSystemPasswordChar = false;
             }

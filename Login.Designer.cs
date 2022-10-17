@@ -33,54 +33,54 @@ namespace WTFBarber
             this.txt_Usuario = new System.Windows.Forms.TextBox();
             this.txt_Contra = new System.Windows.Forms.TextBox();
             this.btn_Login = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_Minimizar = new System.Windows.Forms.PictureBox();
             this.btn_Cerrar = new System.Windows.Forms.PictureBox();
             this.lbl_Error = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Minimizar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Cerrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // txt_Usuario
             // 
-            this.txt_Usuario.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txt_Usuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.txt_Usuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Usuario.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_Usuario.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txt_Usuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Usuario.ForeColor = System.Drawing.Color.Black;
             this.txt_Usuario.Location = new System.Drawing.Point(114, 130);
             this.txt_Usuario.Name = "txt_Usuario";
-            this.txt_Usuario.Size = new System.Drawing.Size(345, 26);
+            this.txt_Usuario.Size = new System.Drawing.Size(345, 27);
             this.txt_Usuario.TabIndex = 0;
-            this.txt_Usuario.Text = "USUARIO";
+            this.txt_Usuario.Text = "Usuario";
             this.txt_Usuario.TextChanged += new System.EventHandler(this.txt_Usuario_TextChanged);
             this.txt_Usuario.Enter += new System.EventHandler(this.txt_Usuario_Enter);
             this.txt_Usuario.Leave += new System.EventHandler(this.txt_Usuario_Leave);
             // 
             // txt_Contra
             // 
-            this.txt_Contra.BackColor = System.Drawing.SystemColors.WindowText;
+            this.txt_Contra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.txt_Contra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Contra.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_Contra.ForeColor = System.Drawing.SystemColors.WindowFrame;
+            this.txt_Contra.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Contra.ForeColor = System.Drawing.Color.Black;
             this.txt_Contra.Location = new System.Drawing.Point(114, 174);
             this.txt_Contra.Name = "txt_Contra";
-            this.txt_Contra.Size = new System.Drawing.Size(345, 26);
+            this.txt_Contra.Size = new System.Drawing.Size(345, 27);
             this.txt_Contra.TabIndex = 1;
-            this.txt_Contra.Text = "CONTRASEÑA";
+            this.txt_Contra.Text = "Contraseña";
             this.txt_Contra.TextChanged += new System.EventHandler(this.txt_Contra_TextChanged);
             this.txt_Contra.Enter += new System.EventHandler(this.txt_Contra_Enter);
             this.txt_Contra.Leave += new System.EventHandler(this.txt_Contra_Leave);
             // 
             // btn_Login
             // 
-            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
             this.btn_Login.FlatAppearance.BorderSize = 0;
             this.btn_Login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btn_Login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Login.Font = new System.Drawing.Font("Perpetua", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Login.ForeColor = System.Drawing.Color.LightGray;
+            this.btn_Login.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Login.ForeColor = System.Drawing.Color.White;
             this.btn_Login.Location = new System.Drawing.Point(188, 254);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(194, 32);
@@ -88,16 +88,6 @@ namespace WTFBarber
             this.btn_Login.Text = "Iniciar Sesion";
             this.btn_Login.UseVisualStyleBackColor = false;
             this.btn_Login.Click += new System.EventHandler(this.btn_Login_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(226, 25);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 81);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // btn_Minimizar
             // 
@@ -133,17 +123,27 @@ namespace WTFBarber
             this.lbl_Error.Size = new System.Drawing.Size(0, 19);
             this.lbl_Error.TabIndex = 8;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::WTFBarber.Properties.Resources.Logo_Rosa;
+            this.pictureBox1.Location = new System.Drawing.Point(207, 12);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(175, 99);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(583, 326);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lbl_Error);
             this.Controls.Add(this.btn_Cerrar);
             this.Controls.Add(this.btn_Minimizar);
-            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_Login);
             this.Controls.Add(this.txt_Contra);
             this.Controls.Add(this.txt_Usuario);
@@ -155,9 +155,9 @@ namespace WTFBarber
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Minimizar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.btn_Cerrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,10 +167,10 @@ namespace WTFBarber
         private System.Windows.Forms.TextBox txt_Usuario;
         private System.Windows.Forms.TextBox txt_Contra;
         private System.Windows.Forms.Button btn_Login;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox btn_Minimizar;
         private System.Windows.Forms.PictureBox btn_Cerrar;
         private System.Windows.Forms.Label lbl_Error;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

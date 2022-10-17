@@ -59,10 +59,11 @@ namespace WTFBarber
             // 
             this.lbl_CorteCaja.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_CorteCaja.AutoSize = true;
-            this.lbl_CorteCaja.Font = new System.Drawing.Font("Perpetua Titling MT", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_CorteCaja.Location = new System.Drawing.Point(239, 9);
+            this.lbl_CorteCaja.Font = new System.Drawing.Font("Century Gothic", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_CorteCaja.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.lbl_CorteCaja.Location = new System.Drawing.Point(261, 9);
             this.lbl_CorteCaja.Name = "lbl_CorteCaja";
-            this.lbl_CorteCaja.Size = new System.Drawing.Size(360, 48);
+            this.lbl_CorteCaja.Size = new System.Drawing.Size(295, 47);
             this.lbl_CorteCaja.TabIndex = 11;
             this.lbl_CorteCaja.Text = "Corte de Caja";
             // 
@@ -71,7 +72,7 @@ namespace WTFBarber
             this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.Color.Red;
             this.btn_Cancelar.Location = new System.Drawing.Point(261, 377);
             this.btn_Cancelar.Name = "btn_Cancelar";
@@ -85,7 +86,7 @@ namespace WTFBarber
             // 
             this.btn_Aceptar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Aceptar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Aceptar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Aceptar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Aceptar.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_Aceptar.Location = new System.Drawing.Point(385, 377);
             this.btn_Aceptar.Name = "btn_Aceptar";
@@ -99,18 +100,18 @@ namespace WTFBarber
             // 
             this.lbl_Ganancia.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Ganancia.AutoSize = true;
-            this.lbl_Ganancia.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_Ganancia.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Ganancia.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Ganancia.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Ganancia.Location = new System.Drawing.Point(25, 271);
             this.lbl_Ganancia.Name = "lbl_Ganancia";
-            this.lbl_Ganancia.Size = new System.Drawing.Size(101, 23);
+            this.lbl_Ganancia.Size = new System.Drawing.Size(116, 25);
             this.lbl_Ganancia.TabIndex = 15;
             this.lbl_Ganancia.Text = "Ganancia";
             // 
             // txt_Ganancia
             // 
             this.txt_Ganancia.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Ganancia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_Ganancia.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.txt_Ganancia.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Ganancia.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Ganancia.Enabled = false;
@@ -126,18 +127,18 @@ namespace WTFBarber
             // 
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(25, 200);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(158, 23);
+            this.label1.Size = new System.Drawing.Size(168, 25);
             this.label1.TabIndex = 23;
             this.label1.Text = "Total de Ventas";
             // 
             // txt_TotalVentas
             // 
             this.txt_TotalVentas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_TotalVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_TotalVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.txt_TotalVentas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_TotalVentas.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_TotalVentas.Enabled = false;
@@ -153,18 +154,18 @@ namespace WTFBarber
             // 
             this.lbl_ProductosVendidos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_ProductosVendidos.AutoSize = true;
-            this.lbl_ProductosVendidos.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_ProductosVendidos.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_ProductosVendidos.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_ProductosVendidos.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_ProductosVendidos.Location = new System.Drawing.Point(20, 133);
             this.lbl_ProductosVendidos.Name = "lbl_ProductosVendidos";
-            this.lbl_ProductosVendidos.Size = new System.Drawing.Size(205, 23);
+            this.lbl_ProductosVendidos.Size = new System.Drawing.Size(214, 25);
             this.lbl_ProductosVendidos.TabIndex = 25;
             this.lbl_ProductosVendidos.Text = "Productos Vendidos";
             // 
             // txt_ProductosVendidos
             // 
             this.txt_ProductosVendidos.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_ProductosVendidos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_ProductosVendidos.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.txt_ProductosVendidos.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_ProductosVendidos.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_ProductosVendidos.Enabled = false;
@@ -180,18 +181,18 @@ namespace WTFBarber
             // 
             this.lbl_Comisiones.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Comisiones.AutoSize = true;
-            this.lbl_Comisiones.BackColor = System.Drawing.SystemColors.ControlDark;
-            this.lbl_Comisiones.Font = new System.Drawing.Font("Rockwell", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Comisiones.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_Comisiones.Font = new System.Drawing.Font("Century Gothic", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbl_Comisiones.Location = new System.Drawing.Point(511, 315);
             this.lbl_Comisiones.Name = "lbl_Comisiones";
-            this.lbl_Comisiones.Size = new System.Drawing.Size(124, 23);
+            this.lbl_Comisiones.Size = new System.Drawing.Size(128, 25);
             this.lbl_Comisiones.TabIndex = 27;
             this.lbl_Comisiones.Text = "Comisiones";
             // 
             // txt_Comisiones
             // 
             this.txt_Comisiones.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Comisiones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_Comisiones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.txt_Comisiones.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Comisiones.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Comisiones.Enabled = false;
@@ -208,7 +209,7 @@ namespace WTFBarber
             // 
             this.btn_MostrarDatos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_MostrarDatos.Font = new System.Drawing.Font("Perpetua", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_MostrarDatos.Location = new System.Drawing.Point(342, 82);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
@@ -221,7 +222,7 @@ namespace WTFBarber
             // pictureBox1
             // 
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::WTFBarber.Properties.Resources.Logo_Rosa;
             this.pictureBox1.Location = new System.Drawing.Point(12, -27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(200, 103);
@@ -237,7 +238,7 @@ namespace WTFBarber
             // btn_Imprimir
             // 
             this.btn_Imprimir.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Imprimir.Font = new System.Drawing.Font("Perpetua", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Imprimir.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Imprimir.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
             this.btn_Imprimir.Location = new System.Drawing.Point(342, 418);
             this.btn_Imprimir.Name = "btn_Imprimir";
@@ -250,6 +251,8 @@ namespace WTFBarber
             // dgv
             // 
             this.dgv.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgv.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.dgv.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv.Location = new System.Drawing.Point(239, 133);
             this.dgv.Name = "dgv";
@@ -281,6 +284,7 @@ namespace WTFBarber
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 39;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // pictureBox3
             // 
@@ -297,7 +301,7 @@ namespace WTFBarber
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 534);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);

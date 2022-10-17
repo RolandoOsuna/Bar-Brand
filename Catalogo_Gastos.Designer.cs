@@ -53,10 +53,11 @@ namespace WTFBarber
             // 
             this.lbl_Catalogo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Catalogo.AutoSize = true;
-            this.lbl_Catalogo.Font = new System.Drawing.Font("Perpetua Titling MT", 26F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Catalogo.Location = new System.Drawing.Point(151, 9);
+            this.lbl_Catalogo.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Catalogo.ForeColor = System.Drawing.Color.White;
+            this.lbl_Catalogo.Location = new System.Drawing.Point(214, 9);
             this.lbl_Catalogo.Name = "lbl_Catalogo";
-            this.lbl_Catalogo.Size = new System.Drawing.Size(449, 42);
+            this.lbl_Catalogo.Size = new System.Drawing.Size(355, 41);
             this.lbl_Catalogo.TabIndex = 49;
             this.lbl_Catalogo.Text = "Catálogo de Gastos";
             // 
@@ -64,25 +65,29 @@ namespace WTFBarber
             // 
             this.lbl_Hasta.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Hasta.AutoSize = true;
-            this.lbl_Hasta.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(10, 100);
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 56;
             this.lbl_Hasta.Text = "Hasta";
+            this.lbl_Hasta.Click += new System.EventHandler(this.lbl_Hasta_Click);
             // 
             // lbl_Desde
             // 
             this.lbl_Desde.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Desde.AutoSize = true;
-            this.lbl_Desde.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Desde.Location = new System.Drawing.Point(10, 73);
             this.lbl_Desde.Name = "lbl_Desde";
             this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
             this.lbl_Desde.TabIndex = 55;
             this.lbl_Desde.Text = "Desde";
+            this.lbl_Desde.Click += new System.EventHandler(this.lbl_Desde_Click);
             // 
             // dtp_CatalogoGastosHasta
             // 
@@ -137,6 +142,7 @@ namespace WTFBarber
             // dgv_CatalogoGastos
             // 
             this.dgv_CatalogoGastos.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.dgv_CatalogoGastos.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.dgv_CatalogoGastos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_CatalogoGastos.Location = new System.Drawing.Point(59, 164);
             this.dgv_CatalogoGastos.MultiSelect = false;
@@ -194,31 +200,37 @@ namespace WTFBarber
             // 
             this.lbl_Descripcion.AutoSize = true;
             this.lbl_Descripcion.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Descripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Descripcion.Location = new System.Drawing.Point(503, 50);
             this.lbl_Descripcion.Name = "lbl_Descripcion";
             this.lbl_Descripcion.Size = new System.Drawing.Size(97, 18);
             this.lbl_Descripcion.TabIndex = 77;
             this.lbl_Descripcion.Text = "Descripcion";
+            this.lbl_Descripcion.Click += new System.EventHandler(this.lbl_Descripcion_Click);
             // 
             // lbl_Cantidad
             // 
             this.lbl_Cantidad.AutoSize = true;
             this.lbl_Cantidad.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Cantidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Cantidad.Location = new System.Drawing.Point(278, 87);
             this.lbl_Cantidad.Name = "lbl_Cantidad";
             this.lbl_Cantidad.Size = new System.Drawing.Size(77, 18);
             this.lbl_Cantidad.TabIndex = 76;
             this.lbl_Cantidad.Text = "Cantidad";
+            this.lbl_Cantidad.Click += new System.EventHandler(this.lbl_Cantidad_Click);
             // 
             // lbl_Nombre
             // 
             this.lbl_Nombre.AutoSize = true;
             this.lbl_Nombre.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.lbl_Nombre.Location = new System.Drawing.Point(287, 56);
             this.lbl_Nombre.Name = "lbl_Nombre";
             this.lbl_Nombre.Size = new System.Drawing.Size(68, 18);
             this.lbl_Nombre.TabIndex = 75;
             this.lbl_Nombre.Text = "Nombre";
+            this.lbl_Nombre.Click += new System.EventHandler(this.lbl_Nombre_Click);
             // 
             // btn_Modificar
             // 
@@ -247,7 +259,7 @@ namespace WTFBarber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
             this.ClientSize = new System.Drawing.Size(763, 412);
             this.Controls.Add(this.txt_Cantidad);
             this.Controls.Add(this.btn_Modificar);

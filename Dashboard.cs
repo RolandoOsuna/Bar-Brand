@@ -58,7 +58,7 @@ namespace WTFBarber
             {
                 DisableButton();
                 currentBtn = (IconButton)senderBtn;
-                currentBtn.BackColor = Color.FromArgb(55, 55, 55);
+                //currentBtn.BackColor = Color.FromArgb(55, 55, 55);
                 currentBtn.ForeColor = color;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
@@ -75,8 +75,8 @@ namespace WTFBarber
         {
             if(currentBtn != null)
             {
-                currentBtn.BackColor = Color.FromArgb(50, 50, 50);
-                currentBtn.ForeColor = Color.Gainsboro;
+                currentBtn.BackColor = Color.FromArgb(254, 217, 225);
+                currentBtn.ForeColor = Color.FromArgb(255, 85, 134);
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 //currentBtn.IconColor = Color.Gainsboro;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -190,7 +190,7 @@ namespace WTFBarber
 
         private void btn_iconoGastos_Click(object sender, EventArgs e)
         {
-            ActiveButton(sender, Color.White);
+            ActiveButton(sender, Color.Gray);
             AbrirFormulario<Gastos>();
         }
 
@@ -212,6 +212,9 @@ namespace WTFBarber
 
         }
 
-        
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

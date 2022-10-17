@@ -206,5 +206,30 @@ namespace WTFBarber
                 return;
             }
         }
+
+        private void lbl_Hasta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Desde_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Nombre_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Cantidad_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lbl_Descripcion_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -63,16 +63,18 @@ namespace WTFBarber
             // 
             this.lbl_Citas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Citas.AutoSize = true;
-            this.lbl_Citas.Font = new System.Drawing.Font("Perpetua Titling MT", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Citas.Location = new System.Drawing.Point(320, 56);
+            this.lbl_Citas.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Citas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.lbl_Citas.Location = new System.Drawing.Point(365, 48);
             this.lbl_Citas.Name = "lbl_Citas";
-            this.lbl_Citas.Size = new System.Drawing.Size(173, 58);
+            this.lbl_Citas.Size = new System.Drawing.Size(140, 56);
             this.lbl_Citas.TabIndex = 42;
             this.lbl_Citas.Text = "Citas";
             // 
             // txt_nombre
             // 
             this.txt_nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.txt_nombre.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_nombre.Location = new System.Drawing.Point(161, 153);
             this.txt_nombre.Name = "txt_nombre";
@@ -104,6 +106,7 @@ namespace WTFBarber
             // txt_telefono
             // 
             this.txt_telefono.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.txt_telefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
             this.txt_telefono.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_telefono.Location = new System.Drawing.Point(161, 204);
             this.txt_telefono.Name = "txt_telefono";
@@ -126,7 +129,7 @@ namespace WTFBarber
             // dgv_Citas
             // 
             this.dgv_Citas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dgv_Citas.BackgroundColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.dgv_Citas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
             this.dgv_Citas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Citas.Location = new System.Drawing.Point(80, 299);
             this.dgv_Citas.MultiSelect = false;
@@ -142,7 +145,7 @@ namespace WTFBarber
             this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.Color.Red;
             this.btn_Cancelar.Location = new System.Drawing.Point(607, 197);
             this.btn_Cancelar.Name = "btn_Cancelar";
@@ -156,7 +159,7 @@ namespace WTFBarber
             // 
             this.btn_Agregar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Agregar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Agregar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Agregar.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_Agregar.Location = new System.Drawing.Point(607, 156);
             this.btn_Agregar.Name = "btn_Agregar";
@@ -171,7 +174,7 @@ namespace WTFBarber
             this.btn_Limpiar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Limpiar.BackColor = System.Drawing.SystemColors.ControlDark;
             this.btn_Limpiar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Limpiar.Font = new System.Drawing.Font("Perpetua", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Limpiar.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Limpiar.ForeColor = System.Drawing.Color.Red;
             this.btn_Limpiar.Location = new System.Drawing.Point(607, 238);
             this.btn_Limpiar.Name = "btn_Limpiar";
@@ -200,12 +203,13 @@ namespace WTFBarber
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 62;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Visible = false;
             // 
             // Citas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 544);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.dgv_Citas);
