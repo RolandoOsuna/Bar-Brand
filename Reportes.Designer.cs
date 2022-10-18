@@ -52,10 +52,10 @@ namespace WTFBarber
             // cmb_TipoReporte
             // 
             this.cmb_TipoReporte.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmb_TipoReporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.cmb_TipoReporte.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.cmb_TipoReporte.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmb_TipoReporte.Font = new System.Drawing.Font("Rockwell", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cmb_TipoReporte.ForeColor = System.Drawing.Color.Black;
+            this.cmb_TipoReporte.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmb_TipoReporte.FormattingEnabled = true;
             this.cmb_TipoReporte.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cmb_TipoReporte.Items.AddRange(new object[] {
@@ -77,7 +77,7 @@ namespace WTFBarber
             this.lbl_Reportes.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Reportes.AutoSize = true;
             this.lbl_Reportes.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Reportes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.lbl_Reportes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Reportes.Location = new System.Drawing.Point(294, 14);
             this.lbl_Reportes.Name = "lbl_Reportes";
             this.lbl_Reportes.Size = new System.Drawing.Size(227, 56);
@@ -89,7 +89,7 @@ namespace WTFBarber
             this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.BackColor = System.Drawing.Color.Black;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.Color.White;
             this.btn_Cancelar.Location = new System.Drawing.Point(23, 473);
             this.btn_Cancelar.Name = "btn_Cancelar";
@@ -105,6 +105,7 @@ namespace WTFBarber
             this.lbl_Desde.AutoSize = true;
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Desde.Location = new System.Drawing.Point(326, 110);
             this.lbl_Desde.Name = "lbl_Desde";
             this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
@@ -117,6 +118,7 @@ namespace WTFBarber
             this.lbl_TipoReporte.AutoSize = true;
             this.lbl_TipoReporte.BackColor = System.Drawing.Color.Transparent;
             this.lbl_TipoReporte.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_TipoReporte.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_TipoReporte.Location = new System.Drawing.Point(61, 110);
             this.lbl_TipoReporte.Name = "lbl_TipoReporte";
             this.lbl_TipoReporte.Size = new System.Drawing.Size(129, 19);
@@ -137,7 +139,7 @@ namespace WTFBarber
             // dgv_Reportes
             // 
             this.dgv_Reportes.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dgv_Reportes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.dgv_Reportes.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgv_Reportes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Reportes.Location = new System.Drawing.Point(137, 204);
             this.dgv_Reportes.Name = "dgv_Reportes";
@@ -162,6 +164,7 @@ namespace WTFBarber
             this.lbl_Hasta.AutoSize = true;
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(326, 157);
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
@@ -196,6 +199,7 @@ namespace WTFBarber
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(607, 14);
             this.pictureBox1.Name = "pictureBox1";
@@ -214,14 +218,13 @@ namespace WTFBarber
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 36;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
             // 
             // btn_Generar
             // 
             this.btn_Generar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Generar.BackColor = System.Drawing.Color.Black;
             this.btn_Generar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Generar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Generar.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Generar.ForeColor = System.Drawing.Color.White;
             this.btn_Generar.Location = new System.Drawing.Point(249, 473);
             this.btn_Generar.Name = "btn_Generar";
@@ -235,7 +238,7 @@ namespace WTFBarber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 578);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);

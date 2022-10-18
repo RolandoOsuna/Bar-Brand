@@ -64,8 +64,8 @@ namespace WTFBarber
             this.lbl_Citas.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Citas.AutoSize = true;
             this.lbl_Citas.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Citas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
-            this.lbl_Citas.Location = new System.Drawing.Point(365, 48);
+            this.lbl_Citas.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.lbl_Citas.Location = new System.Drawing.Point(320, 34);
             this.lbl_Citas.Name = "lbl_Citas";
             this.lbl_Citas.Size = new System.Drawing.Size(140, 56);
             this.lbl_Citas.TabIndex = 42;
@@ -74,8 +74,10 @@ namespace WTFBarber
             // txt_nombre
             // 
             this.txt_nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.txt_nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txt_nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_nombre.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_nombre.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txt_nombre.Location = new System.Drawing.Point(161, 153);
             this.txt_nombre.Name = "txt_nombre";
             this.txt_nombre.Size = new System.Drawing.Size(150, 27);
@@ -86,6 +88,7 @@ namespace WTFBarber
             this.lbl_nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_nombre.AutoSize = true;
             this.lbl_nombre.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_nombre.Location = new System.Drawing.Point(80, 156);
             this.lbl_nombre.Name = "lbl_nombre";
             this.lbl_nombre.Size = new System.Drawing.Size(68, 18);
@@ -97,6 +100,7 @@ namespace WTFBarber
             this.lbl_telefono.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_telefono.AutoSize = true;
             this.lbl_telefono.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_telefono.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_telefono.Location = new System.Drawing.Point(80, 207);
             this.lbl_telefono.Name = "lbl_telefono";
             this.lbl_telefono.Size = new System.Drawing.Size(71, 18);
@@ -106,8 +110,10 @@ namespace WTFBarber
             // txt_telefono
             // 
             this.txt_telefono.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_telefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.txt_telefono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txt_telefono.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_telefono.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_telefono.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txt_telefono.Location = new System.Drawing.Point(161, 204);
             this.txt_telefono.Name = "txt_telefono";
             this.txt_telefono.Size = new System.Drawing.Size(150, 27);
@@ -129,7 +135,7 @@ namespace WTFBarber
             // dgv_Citas
             // 
             this.dgv_Citas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dgv_Citas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.dgv_Citas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgv_Citas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Citas.Location = new System.Drawing.Point(80, 299);
             this.dgv_Citas.MultiSelect = false;
@@ -185,8 +191,9 @@ namespace WTFBarber
             // 
             // pictureBox3
             // 
+            this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(535, 23);
+            this.pictureBox3.Location = new System.Drawing.Point(607, 12);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(176, 152);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -203,13 +210,12 @@ namespace WTFBarber
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 62;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
             // 
             // Citas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 544);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.dgv_Citas);

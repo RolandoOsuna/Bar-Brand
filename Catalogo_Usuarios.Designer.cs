@@ -45,7 +45,7 @@ namespace WTFBarber
             this.lbl_Catalogo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Catalogo.AutoSize = true;
             this.lbl_Catalogo.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Catalogo.ForeColor = System.Drawing.Color.White;
+            this.lbl_Catalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Catalogo.Location = new System.Drawing.Point(189, 9);
             this.lbl_Catalogo.Name = "lbl_Catalogo";
             this.lbl_Catalogo.Size = new System.Drawing.Size(378, 41);
@@ -58,16 +58,8 @@ namespace WTFBarber
             this.lbl_Hasta.AutoSize = true;
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Hasta.Location = new System.Drawing.Point(13, 88);
-=======
+            this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(248, 53);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Hasta.Location = new System.Drawing.Point(248, 53);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 63;
@@ -79,16 +71,8 @@ namespace WTFBarber
             this.lbl_Desde.AutoSize = true;
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Desde.Location = new System.Drawing.Point(8, 56);
-=======
+            this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Desde.Location = new System.Drawing.Point(45, 53);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Desde.Location = new System.Drawing.Point(45, 53);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Desde.Name = "lbl_Desde";
             this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
             this.lbl_Desde.TabIndex = 62;
@@ -109,7 +93,7 @@ namespace WTFBarber
             // 
             this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_Cancelar.Location = new System.Drawing.Point(92, 312);
             this.btn_Cancelar.Name = "btn_Cancelar";
@@ -123,7 +107,7 @@ namespace WTFBarber
             // 
             this.btn_MostrarDatos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_MostrarDatos.Font = new System.Drawing.Font("Caviar Dreams", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_MostrarDatos.Location = new System.Drawing.Point(53, 88);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
@@ -147,7 +131,7 @@ namespace WTFBarber
             // dgv_CatalogoUsuarios
             // 
             this.dgv_CatalogoUsuarios.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dgv_CatalogoUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.dgv_CatalogoUsuarios.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgv_CatalogoUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_CatalogoUsuarios.Location = new System.Drawing.Point(92, 123);
             this.dgv_CatalogoUsuarios.MultiSelect = false;
@@ -158,134 +142,11 @@ namespace WTFBarber
             this.dgv_CatalogoUsuarios.Size = new System.Drawing.Size(551, 173);
             this.dgv_CatalogoUsuarios.TabIndex = 57;
             // 
-<<<<<<< HEAD
-<<<<<<< HEAD
-            // lbl_Nombre
-            // 
-            this.lbl_Nombre.AutoSize = true;
-            this.lbl_Nombre.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Nombre.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Nombre.Location = new System.Drawing.Point(373, 62);
-            this.lbl_Nombre.Name = "lbl_Nombre";
-            this.lbl_Nombre.Size = new System.Drawing.Size(68, 18);
-            this.lbl_Nombre.TabIndex = 64;
-            this.lbl_Nombre.Text = "Nombre";
-            // 
-            // lbl_Privilegio
-            // 
-            this.lbl_Privilegio.AutoSize = true;
-            this.lbl_Privilegio.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Privilegio.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Privilegio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Privilegio.Location = new System.Drawing.Point(373, 117);
-            this.lbl_Privilegio.Name = "lbl_Privilegio";
-            this.lbl_Privilegio.Size = new System.Drawing.Size(75, 18);
-            this.lbl_Privilegio.TabIndex = 65;
-            this.lbl_Privilegio.Text = "Privilegio";
-            // 
-            // lbl_Contra
-            // 
-            this.lbl_Contra.AutoSize = true;
-            this.lbl_Contra.BackColor = System.Drawing.Color.Transparent;
-            this.lbl_Contra.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Contra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Contra.Location = new System.Drawing.Point(373, 91);
-            this.lbl_Contra.Name = "lbl_Contra";
-            this.lbl_Contra.Size = new System.Drawing.Size(93, 18);
-            this.lbl_Contra.TabIndex = 66;
-            this.lbl_Contra.Text = "Contraseña";
-            // 
-            // txt_Nombre
-            // 
-            this.txt_Nombre.Location = new System.Drawing.Point(481, 56);
-            this.txt_Nombre.Name = "txt_Nombre";
-            this.txt_Nombre.Size = new System.Drawing.Size(130, 23);
-            this.txt_Nombre.TabIndex = 67;
-            // 
-            // txt_Contra
-            // 
-            this.txt_Contra.Location = new System.Drawing.Point(481, 88);
-            this.txt_Contra.Name = "txt_Contra";
-            this.txt_Contra.Size = new System.Drawing.Size(130, 23);
-            this.txt_Contra.TabIndex = 69;
-            // 
-            // cmb_Privilegio
-            // 
-            this.cmb_Privilegio.FormattingEnabled = true;
-            this.cmb_Privilegio.Items.AddRange(new object[] {
-            "Admin",
-            "Cajera"});
-            this.cmb_Privilegio.Location = new System.Drawing.Point(481, 117);
-            this.cmb_Privilegio.Name = "cmb_Privilegio";
-            this.cmb_Privilegio.Size = new System.Drawing.Size(130, 23);
-            this.cmb_Privilegio.TabIndex = 70;
-            // 
-            // btn_Agregar
-            // 
-            this.btn_Agregar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Agregar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Agregar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Agregar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Agregar.Location = new System.Drawing.Point(37, 339);
-            this.btn_Agregar.Name = "btn_Agregar";
-            this.btn_Agregar.Size = new System.Drawing.Size(118, 27);
-            this.btn_Agregar.TabIndex = 71;
-            this.btn_Agregar.Text = "Agregar";
-            this.btn_Agregar.UseVisualStyleBackColor = true;
-            this.btn_Agregar.Click += new System.EventHandler(this.btn_Agregar_Click);
-            // 
-            // btn_Modificar
-            // 
-            this.btn_Modificar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Modificar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Modificar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Modificar.Location = new System.Drawing.Point(161, 339);
-            this.btn_Modificar.Name = "btn_Modificar";
-            this.btn_Modificar.Size = new System.Drawing.Size(118, 27);
-            this.btn_Modificar.TabIndex = 72;
-            this.btn_Modificar.Text = "Modificar";
-            this.btn_Modificar.UseVisualStyleBackColor = true;
-            this.btn_Modificar.Click += new System.EventHandler(this.btn_Modificar_Click);
-            // 
-            // btn_Guardar
-            // 
-            this.btn_Guardar.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Guardar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_Guardar.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_Guardar.Location = new System.Drawing.Point(621, 63);
-            this.btn_Guardar.Name = "btn_Guardar";
-            this.btn_Guardar.Size = new System.Drawing.Size(85, 27);
-            this.btn_Guardar.TabIndex = 73;
-            this.btn_Guardar.Text = "Guardar";
-            this.btn_Guardar.UseVisualStyleBackColor = true;
-            this.btn_Guardar.Click += new System.EventHandler(this.btn_Guardar_Click);
-            // 
-            // btn_CancelarModificacion
-            // 
-            this.btn_CancelarModificacion.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.btn_CancelarModificacion.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_CancelarModificacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btn_CancelarModificacion.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.btn_CancelarModificacion.Location = new System.Drawing.Point(614, 96);
-            this.btn_CancelarModificacion.Name = "btn_CancelarModificacion";
-            this.btn_CancelarModificacion.Size = new System.Drawing.Size(92, 39);
-            this.btn_CancelarModificacion.TabIndex = 74;
-            this.btn_CancelarModificacion.Text = "Cancelar Modificacion";
-            this.btn_CancelarModificacion.UseVisualStyleBackColor = true;
-            this.btn_CancelarModificacion.Click += new System.EventHandler(this.btn_CancelarModificacion_Click);
-            // 
-=======
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             // Catalogo_Usuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(714, 374);
             this.Controls.Add(this.lbl_Hasta);
             this.Controls.Add(this.lbl_Desde);

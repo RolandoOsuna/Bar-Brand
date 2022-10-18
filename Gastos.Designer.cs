@@ -50,7 +50,7 @@ namespace WTFBarber
             this.lbl_Gastos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Gastos.AutoSize = true;
             this.lbl_Gastos.Font = new System.Drawing.Font("Century Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Gastos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.lbl_Gastos.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Gastos.Location = new System.Drawing.Point(311, 9);
             this.lbl_Gastos.Name = "lbl_Gastos";
             this.lbl_Gastos.Size = new System.Drawing.Size(183, 56);
@@ -71,8 +71,10 @@ namespace WTFBarber
             // txt_Nombre
             // 
             this.txt_Nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.txt_Nombre.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txt_Nombre.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Nombre.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Nombre.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txt_Nombre.Location = new System.Drawing.Point(95, 126);
             this.txt_Nombre.Name = "txt_Nombre";
             this.txt_Nombre.Size = new System.Drawing.Size(100, 23);
@@ -83,6 +85,7 @@ namespace WTFBarber
             this.lbl_Nombre.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Nombre.AutoSize = true;
             this.lbl_Nombre.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Nombre.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Nombre.Location = new System.Drawing.Point(95, 101);
             this.lbl_Nombre.Name = "lbl_Nombre";
             this.lbl_Nombre.Size = new System.Drawing.Size(82, 22);
@@ -94,6 +97,7 @@ namespace WTFBarber
             this.lbl_Cantidad.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Cantidad.AutoSize = true;
             this.lbl_Cantidad.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Cantidad.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Cantidad.Location = new System.Drawing.Point(95, 166);
             this.lbl_Cantidad.Name = "lbl_Cantidad";
             this.lbl_Cantidad.Size = new System.Drawing.Size(92, 22);
@@ -103,8 +107,10 @@ namespace WTFBarber
             // txt_Cantidad
             // 
             this.txt_Cantidad.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Cantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.txt_Cantidad.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
+            this.txt_Cantidad.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Cantidad.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Cantidad.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txt_Cantidad.Location = new System.Drawing.Point(95, 191);
             this.txt_Cantidad.Name = "txt_Cantidad";
             this.txt_Cantidad.Size = new System.Drawing.Size(100, 23);
@@ -116,6 +122,7 @@ namespace WTFBarber
             this.lbl_Descripcion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Descripcion.AutoSize = true;
             this.lbl_Descripcion.Font = new System.Drawing.Font("Century Gothic", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_Descripcion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Descripcion.Location = new System.Drawing.Point(95, 231);
             this.lbl_Descripcion.Name = "lbl_Descripcion";
             this.lbl_Descripcion.Size = new System.Drawing.Size(116, 22);
@@ -125,7 +132,7 @@ namespace WTFBarber
             // txt_Descripcion
             // 
             this.txt_Descripcion.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Descripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.txt_Descripcion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.txt_Descripcion.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txt_Descripcion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txt_Descripcion.Location = new System.Drawing.Point(95, 256);
@@ -144,7 +151,6 @@ namespace WTFBarber
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 63;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Visible = false;
             // 
             // btn_Cancelar
             // 
@@ -179,7 +185,7 @@ namespace WTFBarber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btn_Cancelar);
             this.Controls.Add(this.btn_Agregar);

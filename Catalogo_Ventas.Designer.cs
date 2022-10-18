@@ -54,7 +54,7 @@ namespace WTFBarber
             // dgv_CatalogoVentas
             // 
             this.dgv_CatalogoVentas.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.dgv_CatalogoVentas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(198)))), ((int)(((byte)(204)))), ((int)(((byte)(168)))));
+            this.dgv_CatalogoVentas.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.dgv_CatalogoVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_CatalogoVentas.Location = new System.Drawing.Point(76, 140);
             this.dgv_CatalogoVentas.MultiSelect = false;
@@ -81,7 +81,7 @@ namespace WTFBarber
             // 
             this.btn_MostrarDatos.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_MostrarDatos.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_MostrarDatos.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_MostrarDatos.Font = new System.Drawing.Font("Caviar Dreams", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_MostrarDatos.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_MostrarDatos.Location = new System.Drawing.Point(63, 92);
             this.btn_MostrarDatos.Name = "btn_MostrarDatos";
@@ -95,7 +95,7 @@ namespace WTFBarber
             // 
             this.btn_Modificar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Modificar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Modificar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Modificar.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Modificar.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_Modificar.Location = new System.Drawing.Point(209, 329);
             this.btn_Modificar.Name = "btn_Modificar";
@@ -109,7 +109,7 @@ namespace WTFBarber
             // 
             this.btn_Cancelar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Cancelar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Cancelar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Cancelar.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Cancelar.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_Cancelar.Location = new System.Drawing.Point(76, 329);
             this.btn_Cancelar.Name = "btn_Cancelar";
@@ -136,16 +136,8 @@ namespace WTFBarber
             this.lbl_Hasta.AutoSize = true;
             this.lbl_Hasta.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Hasta.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Hasta.Location = new System.Drawing.Point(17, 85);
-=======
+            this.lbl_Hasta.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Hasta.Location = new System.Drawing.Point(225, 56);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Hasta.Location = new System.Drawing.Point(225, 56);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Hasta.Name = "lbl_Hasta";
             this.lbl_Hasta.Size = new System.Drawing.Size(52, 19);
             this.lbl_Hasta.TabIndex = 37;
@@ -157,7 +149,7 @@ namespace WTFBarber
             this.lbl_Desde.AutoSize = true;
             this.lbl_Desde.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Desde.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.lbl_Desde.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Desde.Location = new System.Drawing.Point(17, 58);
             this.lbl_Desde.Name = "lbl_Desde";
             this.lbl_Desde.Size = new System.Drawing.Size(57, 19);
@@ -167,23 +159,13 @@ namespace WTFBarber
             // txt_Comision
             // 
             this.txt_Comision.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Comision.BackColor = System.Drawing.Color.White;
+            this.txt_Comision.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.txt_Comision.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Comision.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Comision.Enabled = false;
             this.txt_Comision.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.txt_Comision.ForeColor = System.Drawing.Color.Black;
-            this.txt_Comision.Location = new System.Drawing.Point(435, 125);
-=======
-            this.txt_Comision.ForeColor = System.Drawing.Color.Silver;
+            this.txt_Comision.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txt_Comision.Location = new System.Drawing.Point(445, 183);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.txt_Comision.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Comision.Location = new System.Drawing.Point(445, 183);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.txt_Comision.Name = "txt_Comision";
             this.txt_Comision.PlaceholderText = "%";
             this.txt_Comision.Size = new System.Drawing.Size(150, 24);
@@ -192,10 +174,10 @@ namespace WTFBarber
             // cmb_Empleado
             // 
             this.cmb_Empleado.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmb_Empleado.BackColor = System.Drawing.Color.White;
+            this.cmb_Empleado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.cmb_Empleado.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmb_Empleado.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cmb_Empleado.ForeColor = System.Drawing.Color.Black;
+            this.cmb_Empleado.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmb_Empleado.FormattingEnabled = true;
             this.cmb_Empleado.Items.AddRange(new object[] {
             "Saul",
@@ -212,10 +194,10 @@ namespace WTFBarber
             // cmb_Producto
             // 
             this.cmb_Producto.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.cmb_Producto.BackColor = System.Drawing.Color.White;
+            this.cmb_Producto.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.cmb_Producto.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cmb_Producto.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.cmb_Producto.ForeColor = System.Drawing.Color.Black;
+            this.cmb_Producto.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.cmb_Producto.FormattingEnabled = true;
             this.cmb_Producto.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.cmb_Producto.Items.AddRange(new object[] {
@@ -244,16 +226,8 @@ namespace WTFBarber
             this.lbl_Comision.AutoSize = true;
             this.lbl_Comision.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Comision.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Comision.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Comision.Location = new System.Drawing.Point(435, 103);
-=======
+            this.lbl_Comision.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Comision.Location = new System.Drawing.Point(445, 157);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Comision.Location = new System.Drawing.Point(445, 157);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Comision.Name = "lbl_Comision";
             this.lbl_Comision.Size = new System.Drawing.Size(81, 19);
             this.lbl_Comision.TabIndex = 42;
@@ -265,16 +239,8 @@ namespace WTFBarber
             this.lbl_Empleado.AutoSize = true;
             this.lbl_Empleado.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Empleado.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Empleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Empleado.Location = new System.Drawing.Point(279, 105);
-=======
+            this.lbl_Empleado.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Empleado.Location = new System.Drawing.Point(284, 154);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Empleado.Location = new System.Drawing.Point(284, 154);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Empleado.Name = "lbl_Empleado";
             this.lbl_Empleado.Size = new System.Drawing.Size(90, 19);
             this.lbl_Empleado.TabIndex = 41;
@@ -286,16 +252,8 @@ namespace WTFBarber
             this.lbl_Precio.AutoSize = true;
             this.lbl_Precio.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Precio.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Precio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Precio.Location = new System.Drawing.Point(440, 55);
-=======
+            this.lbl_Precio.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Precio.Location = new System.Drawing.Point(445, 100);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Precio.Location = new System.Drawing.Point(445, 100);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Precio.Name = "lbl_Precio";
             this.lbl_Precio.Size = new System.Drawing.Size(57, 19);
             this.lbl_Precio.TabIndex = 40;
@@ -304,23 +262,13 @@ namespace WTFBarber
             // txt_Precio
             // 
             this.txt_Precio.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.txt_Precio.BackColor = System.Drawing.Color.White;
+            this.txt_Precio.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.txt_Precio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txt_Precio.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_Precio.Enabled = false;
             this.txt_Precio.Font = new System.Drawing.Font("Century Gothic", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.txt_Precio.ForeColor = System.Drawing.Color.Black;
-            this.txt_Precio.Location = new System.Drawing.Point(435, 77);
-=======
-            this.txt_Precio.ForeColor = System.Drawing.Color.Silver;
+            this.txt_Precio.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.txt_Precio.Location = new System.Drawing.Point(445, 126);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.txt_Precio.ForeColor = System.Drawing.Color.Silver;
-            this.txt_Precio.Location = new System.Drawing.Point(445, 126);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.txt_Precio.Name = "txt_Precio";
             this.txt_Precio.PlaceholderText = "$";
             this.txt_Precio.ShortcutsEnabled = false;
@@ -333,16 +281,8 @@ namespace WTFBarber
             this.lbl_Producto.AutoSize = true;
             this.lbl_Producto.BackColor = System.Drawing.Color.Transparent;
             this.lbl_Producto.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-<<<<<<< HEAD
-<<<<<<< HEAD
-            this.lbl_Producto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
-            this.lbl_Producto.Location = new System.Drawing.Point(279, 55);
-=======
+            this.lbl_Producto.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Producto.Location = new System.Drawing.Point(284, 100);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
-            this.lbl_Producto.Location = new System.Drawing.Point(284, 100);
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
             this.lbl_Producto.Name = "lbl_Producto";
             this.lbl_Producto.Size = new System.Drawing.Size(78, 19);
             this.lbl_Producto.TabIndex = 38;
@@ -352,7 +292,7 @@ namespace WTFBarber
             // 
             this.btn_CancelarModificacion.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_CancelarModificacion.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_CancelarModificacion.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_CancelarModificacion.Font = new System.Drawing.Font("Caviar Dreams", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_CancelarModificacion.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_CancelarModificacion.Location = new System.Drawing.Point(601, 119);
             this.btn_CancelarModificacion.Name = "btn_CancelarModificacion";
@@ -366,7 +306,7 @@ namespace WTFBarber
             // 
             this.btn_Guardar.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.btn_Guardar.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.btn_Guardar.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_Guardar.Font = new System.Drawing.Font("Caviar Dreams", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Guardar.ForeColor = System.Drawing.SystemColors.Highlight;
             this.btn_Guardar.Location = new System.Drawing.Point(618, 169);
             this.btn_Guardar.Name = "btn_Guardar";
@@ -381,7 +321,7 @@ namespace WTFBarber
             this.lbl_Catalogo.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.lbl_Catalogo.AutoSize = true;
             this.lbl_Catalogo.Font = new System.Drawing.Font("Century Gothic", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lbl_Catalogo.ForeColor = System.Drawing.Color.White;
+            this.lbl_Catalogo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.lbl_Catalogo.Location = new System.Drawing.Point(179, 9);
             this.lbl_Catalogo.Name = "lbl_Catalogo";
             this.lbl_Catalogo.Size = new System.Drawing.Size(357, 41);
@@ -392,7 +332,7 @@ namespace WTFBarber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.BackColor = System.Drawing.Color.Silver;
             this.ClientSize = new System.Drawing.Size(714, 374);
             this.Controls.Add(this.lbl_Catalogo);
             this.Controls.Add(this.btn_Guardar);

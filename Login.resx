@@ -57,14 +57,14 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing.Common" name="System.Drawing.Common, Version=5.0.0.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
-  <data name="btn_Minimizar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="btn_Minimizar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAYAAADk3wSdAAAABGdBTUEAALGPC/xhBQAAACVJREFUSEtj
         GAWjYBQMelBQUFAPxP+piOuhRo+CUTAKBitgYAAATk4vfGSijY4AAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="btn_Cerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing.Common" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="btn_Cerrar.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAABUAAAAXCAYAAADk3wSdAAAABGdBTUEAALGPC/xhBQAAAHVJREFUSEu1
         lTsOACEIBT0yN9iju2bjs1hD4PGZioKZSOVoQUSePZZwemuY35Dk6mTDqh8Nmx4bdu97F+nLLIEOAk0M

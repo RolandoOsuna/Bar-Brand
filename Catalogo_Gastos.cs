@@ -94,8 +94,6 @@ namespace WTFBarber
                 }
             }
         }
-<<<<<<< HEAD
-<<<<<<< HEAD
         //BTN CANCELAR MODIFICACION
         private void btn_CancelarModificacion_Click(object sender, EventArgs e)
         {
@@ -106,11 +104,11 @@ namespace WTFBarber
         private void btn_Guardar_Click(object sender, EventArgs e)
         {
             //VALIDACION CAMPOS VACIOS
-            if (txt_Nombre.Text == "" || txt_Cantidad.Text == "" || txt_Descripcion.Text == "")
-            {
-                MessageBox.Show("Completa todos los campos");
-                return;
-            }
+            //if (txt_Nombre.Text == "" || txt_Cantidad.Text == "" || txt_Descripcion.Text == "")
+            //{
+            //    MessageBox.Show("Completa todos los campos");
+            //    return;
+            //}
             try
             {
                 using (var db = new wtfbarberContext.wtfbarberContext())
@@ -120,13 +118,13 @@ namespace WTFBarber
                     gasto.IdGasto = id.Value;
 
                     gasto.IdGasto = id.Value;
-                    gasto.NombreGasto = txt_Nombre.Text.ToString();
-                    gasto.DescripcionGasto = txt_Descripcion.Text.ToString();
-                    gasto.CantidadGasto = float.Parse(txt_Cantidad.Text);
+                    //gasto.NombreGasto = txt_Nombre.Text.ToString();
+                    //gasto.DescripcionGasto = txt_Descripcion.Text.ToString();
+                    //gasto.CantidadGasto = float.Parse(txt_Cantidad.Text);
                     gasto.FechaGasto = DateTime.Now;
 
                     db.Gastos.Attach(gasto);
-                    db.Entry(gasto).State = EntityState.Modified;
+                    //db.Entry(gasto).State = EntityState.Modified;
                     db.SaveChanges();
                     MessageBox.Show("Modificado");
                     MostrarDatos();
@@ -145,38 +143,38 @@ namespace WTFBarber
             using (var db = new wtfbarberContext.wtfbarberContext())
             {
                 var gasto = db.Gastos.Find(id = GetId());
-                txt_Nombre.Text = gasto.NombreGasto.ToString();
-                txt_Descripcion.Text = gasto.DescripcionGasto.ToString();
-                txt_Cantidad.Text = gasto.CantidadGasto.ToString();
+                //txt_Nombre.Text = gasto.NombreGasto.ToString();
+                //txt_Descripcion.Text = gasto.DescripcionGasto.ToString();
+                //txt_Cantidad.Text = gasto.CantidadGasto.ToString();
             }
         }
         public void Mostrartxt()
         {
-            txt_Nombre.Visible = true;
-            txt_Descripcion.Visible = true;
-            txt_Cantidad.Visible = true;
-            lbl_Nombre.Visible = true;
-            lbl_Descripcion.Visible = true;
-            lbl_Cantidad.Visible = true;
-            btn_CancelarModificacion.Visible = true;
-            btn_Guardar.Visible = true;
+            //txt_Nombre.Visible = true;
+            //txt_Descripcion.Visible = true;
+            //txt_Cantidad.Visible = true;
+            //lbl_Nombre.Visible = true;
+            //lbl_Descripcion.Visible = true;
+            //lbl_Cantidad.Visible = true;
+            //btn_CancelarModificacion.Visible = true;
+            //btn_Guardar.Visible = true;
         }
         public void Ocultartxt()
         {
-            txt_Nombre.Visible = false;
-            txt_Descripcion.Visible = false;
-            txt_Cantidad.Visible = false;
-            lbl_Nombre.Visible = false;
-            lbl_Descripcion.Visible = false;
-            lbl_Cantidad.Visible = false;
-            btn_CancelarModificacion.Visible = false;
-            btn_Guardar.Visible = false;
+            //txt_Nombre.Visible = false;
+            //txt_Descripcion.Visible = false;
+            //txt_Cantidad.Visible = false;
+            //lbl_Nombre.Visible = false;
+            //lbl_Descripcion.Visible = false;
+            //lbl_Cantidad.Visible = false;
+            //btn_CancelarModificacion.Visible = false;
+            //btn_Guardar.Visible = false;
         }
         public void limpiarTextbox()
         {
-            txt_Nombre.Clear();
-            txt_Descripcion.Clear();
-            txt_Cantidad.Clear();
+        //    txt_Nombre.Clear();
+        //    txt_Descripcion.Clear();
+        //    txt_Cantidad.Clear();
         }
 
         private void txt_Cantidad_TextChanged(object sender, EventArgs e)
@@ -218,9 +216,5 @@ namespace WTFBarber
         {
 
         }
-=======
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
-=======
->>>>>>> parent of 4824c6f (Catalogo Venta-Usuarios-Gastos Terminado)
     }
 }

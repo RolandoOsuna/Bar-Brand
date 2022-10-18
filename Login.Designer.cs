@@ -44,13 +44,13 @@ namespace WTFBarber
             // 
             // txt_Usuario
             // 
-            this.txt_Usuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.txt_Usuario.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_Usuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Usuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_Usuario.ForeColor = System.Drawing.Color.Black;
+            this.txt_Usuario.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Usuario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.txt_Usuario.Location = new System.Drawing.Point(114, 130);
             this.txt_Usuario.Name = "txt_Usuario";
-            this.txt_Usuario.Size = new System.Drawing.Size(345, 27);
+            this.txt_Usuario.Size = new System.Drawing.Size(345, 26);
             this.txt_Usuario.TabIndex = 0;
             this.txt_Usuario.Text = "Usuario";
             this.txt_Usuario.TextChanged += new System.EventHandler(this.txt_Usuario_TextChanged);
@@ -59,13 +59,13 @@ namespace WTFBarber
             // 
             // txt_Contra
             // 
-            this.txt_Contra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(217)))), ((int)(((byte)(225)))));
+            this.txt_Contra.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txt_Contra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txt_Contra.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.txt_Contra.ForeColor = System.Drawing.Color.Black;
+            this.txt_Contra.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_Contra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(50)))), ((int)(((byte)(57)))));
             this.txt_Contra.Location = new System.Drawing.Point(114, 174);
             this.txt_Contra.Name = "txt_Contra";
-            this.txt_Contra.Size = new System.Drawing.Size(345, 27);
+            this.txt_Contra.Size = new System.Drawing.Size(345, 26);
             this.txt_Contra.TabIndex = 1;
             this.txt_Contra.Text = "Contraseña";
             this.txt_Contra.TextChanged += new System.EventHandler(this.txt_Contra_TextChanged);
@@ -74,14 +74,14 @@ namespace WTFBarber
             // 
             // btn_Login
             // 
-            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(85)))), ((int)(((byte)(134)))));
+            this.btn_Login.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(110)))), ((int)(((byte)(119)))));
             this.btn_Login.FlatAppearance.BorderSize = 0;
             this.btn_Login.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(28)))), ((int)(((byte)(28)))), ((int)(((byte)(28)))));
             this.btn_Login.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.btn_Login.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Login.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_Login.ForeColor = System.Drawing.Color.White;
-            this.btn_Login.Location = new System.Drawing.Point(188, 254);
+            this.btn_Login.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_Login.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.btn_Login.Location = new System.Drawing.Point(188, 251);
             this.btn_Login.Name = "btn_Login";
             this.btn_Login.Size = new System.Drawing.Size(194, 32);
             this.btn_Login.TabIndex = 2;
@@ -125,7 +125,7 @@ namespace WTFBarber
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::WTFBarber.Properties.Resources.Logo_Rosa;
+            this.pictureBox1.Image = global::WTFBarber.Properties.Resources.Logo_Bar_Brand;
             this.pictureBox1.Location = new System.Drawing.Point(207, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 99);
@@ -137,7 +137,7 @@ namespace WTFBarber
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Silver;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(583, 326);
             this.Controls.Add(this.pictureBox1);

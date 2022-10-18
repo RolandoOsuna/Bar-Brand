@@ -54,11 +54,11 @@ namespace WTFBarber
         //Métodos Btn_iconos
         private void ActiveButton(object senderBtn, Color color)
         {
-            if(senderBtn != null)
+            if (senderBtn != null)
             {
                 DisableButton();
                 currentBtn = (IconButton)senderBtn;
-                //currentBtn.BackColor = Color.FromArgb(55, 55, 55);
+                currentBtn.BackColor = Color.Silver;
                 currentBtn.ForeColor = color;
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 currentBtn.IconColor = color;
@@ -75,8 +75,8 @@ namespace WTFBarber
         {
             if(currentBtn != null)
             {
-                currentBtn.BackColor = Color.FromArgb(254, 217, 225);
-                currentBtn.ForeColor = Color.FromArgb(255, 85, 134);
+                currentBtn.BackColor = Color.FromArgb(168, 168, 168);
+                currentBtn.ForeColor = Color.FromArgb(255,255,255);
                 currentBtn.TextAlign = ContentAlignment.MiddleCenter;
                 //currentBtn.IconColor = Color.Gainsboro;
                 currentBtn.TextImageRelation = TextImageRelation.ImageBeforeText;
@@ -213,6 +213,21 @@ namespace WTFBarber
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Barra_Lateral_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Barra_Titulo_Paint(object sender, PaintEventArgs e)
         {
 
         }
